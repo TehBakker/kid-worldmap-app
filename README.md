@@ -1,12 +1,14 @@
-# FastAPI Backend Template
+# Kid Worldmap App — Backend API
 
-Template backend de référence pour projets personnels : FastAPI, PostgreSQL (Supabase), Docker et Google Cloud Run.
+Backend FastAPI pour **kid-worldmap-app** : PostgreSQL (Supabase), Docker et Google Cloud Run.
+
+> Projet dérivé du template [template-project](https://github.com/TehBakker/template-project).
 
 ---
 
 ## Présentation du projet
 
-Ce dépôt est un **template réutilisable**, pas un simple Hello World. Il fournit :
+Ce dépôt contient l'API backend de **kid-worldmap-app**. Il repose sur le template FastAPI réutilisable et fournit :
 
 - Une API FastAPI moderne avec typage Python
 - Une connexion PostgreSQL via SQLAlchemy 2 et psycopg

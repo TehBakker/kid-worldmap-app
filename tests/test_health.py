@@ -14,7 +14,7 @@ def test_root(client: TestClient) -> None:
     """Root endpoint returns hello message."""
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello World"}
+    assert response.json() == {"message": "Kid Worldmap API"}
 
 
 def test_db_check_without_database(monkeypatch) -> None:
