@@ -37,6 +37,31 @@ data class GeoBounds(
     }
 }
 
+object ShapeUtils {
+
+    /** Surface normalisée d'un anneau (boîte englobante). */
+    fun ringArea(ring: List<GeoPoint>): Float {
+        val b = GeoBounds.of(listOf(ring)) ?: return 0f
+        return (b.maxX - b.minX) * (b.maxY - b.minY)
+    }
+
+    /**
+     * Retient uniquement la masse terrestre principale (ex. France métropolitaine,
+     * sans Guyane / DOM-TOM). Même logique que le cadrage carte dans [WorldMapScreen].
+     */
+    fun mainlandShape(shape: CountryShape): CountryShape {
+        if (shape.isEmpty()) return shape
+        val main = shape.maxByOrNull { ringArea(it) } ?: return shape
+        return listOf(main)
+    }
+
+    /** Forme adaptée au badge fiche pays : masse principale, ou forme complète si unique. */
+    fun shapeForBadge(shape: CountryShape?): CountryShape? {
+        if (shape == null || shape.isEmpty()) return null
+        return if (shape.size == 1) shape else mainlandShape(shape)
+    }
+}
+
 object GeoUtils {
     /** Test d'appartenance d'un point à une forme (ray casting sur les anneaux). */
     fun contains(shape: CountryShape, x: Float, y: Float): Boolean {

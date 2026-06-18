@@ -19,13 +19,17 @@ fun FlagBadge(
     emoji: String,
     modifier: Modifier = Modifier,
     backgroundColor: Color = MaterialTheme.colorScheme.surface,
-    fontSize: Int = 28
+    fontSize: Int = 28,
+    compact: Boolean = false
 ) {
     Box(
         modifier = modifier
-            .clip(RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(if (compact) 10.dp else 12.dp))
             .background(backgroundColor)
-            .padding(horizontal = 10.dp, vertical = 6.dp),
+            .padding(
+                horizontal = if (compact) 8.dp else 10.dp,
+                vertical = if (compact) 4.dp else 6.dp
+            ),
         contentAlignment = Alignment.Center
     ) {
         Text(text = emoji, fontSize = fontSize.sp)

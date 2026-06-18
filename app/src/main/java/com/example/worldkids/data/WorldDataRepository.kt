@@ -10,6 +10,10 @@ import org.json.JSONObject
  */
 class WorldDataRepository(context: Context) {
 
+    init {
+        CountryMapRules.loadFromAssets(context)
+    }
+
     val countries: List<Country> = loadCountries(context)
     val matches: List<Match> = loadMatches(context)
     val worldCupGroups: WorldCupGroupsData = loadWorldCupGroups(context)
@@ -146,12 +150,17 @@ class WorldDataRepository(context: Context) {
             mapX = o.getDouble("mapX").toFloat(),
             mapY = o.getDouble("mapY").toFloat(),
             colorHex = o.getString("colorHex"),
+            capitalMapX = if (o.has("capitalMapX")) o.getDouble("capitalMapX").toFloat() else null,
+            capitalMapY = if (o.has("capitalMapY")) o.getDouble("capitalMapY").toFloat() else null,
             kidFactTitle = o.optString("kidFactTitle", ""),
             kidFacts = o.optStringList("kidFacts"),
             memoryHook = o.optString("memoryHook", ""),
             images = o.optStringList("images"),
             worldCup2026Group = o.optString("worldCup2026Group").takeIf { it.isNotEmpty() },
-            isWorldCup2026 = o.optBoolean("isWorldCup2026", false)
+            isWorldCup2026 = o.optBoolean("isWorldCup2026", false),
+            currencySymbol = o.optString("currencySymbol").takeIf { it.isNotBlank() },
+            worldCupTitles = o.optInt("worldCupTitles", 0),
+            memorableFacts = o.optStringList("memorableFacts")
         )
 
         private fun parseCountryDetails(json: String): Map<String, CountryDetailOverlay> {
@@ -163,7 +172,8 @@ class WorldDataRepository(context: Context) {
                     kidFactTitle = o.optString("kidFactTitle", ""),
                     kidFacts = o.optStringList("kidFacts"),
                     memoryHook = o.optString("memoryHook", ""),
-                    images = o.optStringList("images")
+                    images = o.optStringList("images"),
+                    memorableFacts = o.optStringList("memorableFacts")
                 )
             }
             return map
@@ -211,14 +221,16 @@ private data class CountryDetailOverlay(
     val kidFactTitle: String,
     val kidFacts: List<String>,
     val memoryHook: String,
-    val images: List<String>
+    val images: List<String>,
+    val memorableFacts: List<String>
 )
 
 private fun Country.mergeDetails(d: CountryDetailOverlay): Country = copy(
     kidFactTitle = d.kidFactTitle.ifBlank { kidFactTitle },
     kidFacts = d.kidFacts.ifEmpty { kidFacts },
     memoryHook = d.memoryHook.ifBlank { memoryHook },
-    images = d.images.ifEmpty { images }
+    images = d.images.ifEmpty { images },
+    memorableFacts = d.memorableFacts.ifEmpty { memorableFacts }
 )
 
 enum class MatchFilter(val label: String) {

@@ -13,7 +13,9 @@
     "mapY": 0.3167,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6921,
+    "capitalMapY": 0.3082
   },
   {
     "id": "south_africa",
@@ -29,7 +31,9 @@
     "mapY": 0.6611,
     "colorHex": "#F9A825",
     "worldCup2026Group": "A",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5783,
+    "capitalMapY": 0.643
   },
   {
     "id": "albania",
@@ -45,7 +49,9 @@
     "mapY": 0.2722,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5551,
+    "capitalMapY": 0.2704
   },
   {
     "id": "algeria",
@@ -61,7 +67,9 @@
     "mapY": 0.3444,
     "colorHex": "#F9A825",
     "worldCup2026Group": "J",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5086,
+    "capitalMapY": 0.2959
   },
   {
     "id": "germany",
@@ -77,7 +85,9 @@
     "mapY": 0.2167,
     "colorHex": "#1565C0",
     "worldCup2026Group": "E",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5373,
+    "capitalMapY": 0.2082
   },
   {
     "id": "andorra",
@@ -93,7 +103,9 @@
     "mapY": 0.2639,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5042,
+    "capitalMapY": 0.2638
   },
   {
     "id": "angola",
@@ -109,7 +121,9 @@
     "mapY": 0.5694,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5368,
+    "capitalMapY": 0.5491
   },
   {
     "id": "anguilla",
@@ -125,7 +139,9 @@
     "mapY": 0.3986,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3248,
+    "capitalMapY": 0.3988
   },
   {
     "id": "antarctica",
@@ -141,7 +157,9 @@
     "mapY": 0.9147,
     "colorHex": "#607D8B",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5124,
+    "capitalMapY": 0.9147
   },
   {
     "id": "antigua_and_barbuda",
@@ -157,7 +175,9 @@
     "mapY": 0.4053,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3282,
+    "capitalMapY": 0.4049
   },
   {
     "id": "saudi_arabia",
@@ -173,7 +193,9 @@
     "mapY": 0.3611,
     "colorHex": "#E53935",
     "worldCup2026Group": "H",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.6298,
+    "capitalMapY": 0.3628
   },
   {
     "id": "argentina",
@@ -189,7 +211,9 @@
     "mapY": 0.6889,
     "colorHex": "#43A047",
     "worldCup2026Group": "J",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.3378,
+    "capitalMapY": 0.6923
   },
   {
     "id": "armenia",
@@ -205,7 +229,9 @@
     "mapY": 0.2778,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6236,
+    "capitalMapY": 0.2768
   },
   {
     "id": "aruba",
@@ -221,7 +247,9 @@
     "mapY": 0.4306,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3055,
+    "capitalMapY": 0.4304
   },
   {
     "id": "australia",
@@ -237,7 +265,9 @@
     "mapY": 0.65,
     "colorHex": "#FF7043",
     "worldCup2026Group": "D",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.9142,
+    "capitalMapY": 0.696
   },
   {
     "id": "austria",
@@ -253,7 +283,9 @@
     "mapY": 0.237,
     "colorHex": "#1565C0",
     "worldCup2026Group": "J",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5455,
+    "capitalMapY": 0.2322
   },
   {
     "id": "azerbaijan",
@@ -269,7 +301,9 @@
     "mapY": 0.275,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6386,
+    "capitalMapY": 0.2757
   },
   {
     "id": "the_bahamas",
@@ -285,7 +319,9 @@
     "mapY": 0.3653,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2852,
+    "capitalMapY": 0.3608
   },
   {
     "id": "bahrain",
@@ -301,7 +337,9 @@
     "mapY": 0.3556,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6405,
+    "capitalMapY": 0.3543
   },
   {
     "id": "bangladesh",
@@ -317,7 +355,9 @@
     "mapY": 0.3667,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7511,
+    "capitalMapY": 0.3683
   },
   {
     "id": "barbados",
@@ -333,7 +373,9 @@
     "mapY": 0.4269,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3344,
+    "capitalMapY": 0.4272
   },
   {
     "id": "playoff_fifa_1",
@@ -349,7 +391,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "K",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "playoff_fifa_2",
@@ -365,7 +409,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "I",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "playoff_uefa_a",
@@ -381,7 +427,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "B",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "playoff_uefa_b",
@@ -397,7 +445,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "F",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "playoff_uefa_c",
@@ -413,7 +463,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "D",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "playoff_uefa_d",
@@ -429,7 +481,9 @@
     "mapY": 0.5,
     "colorHex": "#9E9E9E",
     "worldCup2026Group": "A",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   },
   {
     "id": "belgium",
@@ -445,7 +499,9 @@
     "mapY": 0.2176,
     "colorHex": "#1565C0",
     "worldCup2026Group": "G",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5121,
+    "capitalMapY": 0.2175
   },
   {
     "id": "belize",
@@ -461,7 +517,9 @@
     "mapY": 0.4042,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2534,
+    "capitalMapY": 0.4041
   },
   {
     "id": "bermuda",
@@ -477,7 +535,9 @@
     "mapY": 0.3204,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.32,
+    "capitalMapY": 0.3206
   },
   {
     "id": "bhutan",
@@ -493,7 +553,9 @@
     "mapY": 0.3472,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.749,
+    "capitalMapY": 0.3474
   },
   {
     "id": "belarus",
@@ -509,7 +571,9 @@
     "mapY": 0.2056,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5766,
+    "capitalMapY": 0.2006
   },
   {
     "id": "bolivia",
@@ -525,7 +589,9 @@
     "mapY": 0.5944,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3187,
+    "capitalMapY": 0.6057
   },
   {
     "id": "bonaire_sint_eustatius_and_saba",
@@ -541,7 +607,9 @@
     "mapY": 0.4325,
     "colorHex": "#2E7D32",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3104,
+    "capitalMapY": 0.4325
   },
   {
     "id": "bosnia_and_herzegovina",
@@ -557,7 +625,9 @@
     "mapY": 0.2556,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.551,
+    "capitalMapY": 0.2564
   },
   {
     "id": "botswana",
@@ -573,7 +643,9 @@
     "mapY": 0.6222,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.572,
+    "capitalMapY": 0.637
   },
   {
     "id": "brunei",
@@ -589,7 +661,9 @@
     "mapY": 0.475,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8193,
+    "capitalMapY": 0.4728
   },
   {
     "id": "brazil",
@@ -605,7 +679,9 @@
     "mapY": 0.5556,
     "colorHex": "#43A047",
     "worldCup2026Group": "C",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.3669,
+    "capitalMapY": 0.5877
   },
   {
     "id": "bulgaria",
@@ -621,7 +697,9 @@
     "mapY": 0.2611,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5648,
+    "capitalMapY": 0.2628
   },
   {
     "id": "burkina_faso",
@@ -637,7 +715,9 @@
     "mapY": 0.4278,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4957,
+    "capitalMapY": 0.4313
   },
   {
     "id": "burundi",
@@ -653,7 +733,9 @@
     "mapY": 0.5194,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5831,
+    "capitalMapY": 0.519
   },
   {
     "id": "benin",
@@ -669,7 +751,9 @@
     "mapY": 0.4472,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5072,
+    "capitalMapY": 0.4639
   },
   {
     "id": "cambodia",
@@ -685,7 +769,9 @@
     "mapY": 0.4278,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7914,
+    "capitalMapY": 0.4358
   },
   {
     "id": "cameroon",
@@ -701,7 +787,9 @@
     "mapY": 0.4667,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.532,
+    "capitalMapY": 0.4785
   },
   {
     "id": "canada",
@@ -717,7 +805,9 @@
     "mapY": 0.1667,
     "colorHex": "#43A047",
     "worldCup2026Group": "B",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2897,
+    "capitalMapY": 0.2477
   },
   {
     "id": "cape_verde",
@@ -733,7 +823,9 @@
     "mapY": 0.4111,
     "colorHex": "#F9A825",
     "worldCup2026Group": "H",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4347,
+    "capitalMapY": 0.417
   },
   {
     "id": "chile",
@@ -749,7 +841,9 @@
     "mapY": 0.6667,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3038,
+    "capitalMapY": 0.6859
   },
   {
     "id": "china",
@@ -765,7 +859,9 @@
     "mapY": 0.3056,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8233,
+    "capitalMapY": 0.2783
   },
   {
     "id": "cyprus",
@@ -781,7 +877,9 @@
     "mapY": 0.3056,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5926,
+    "capitalMapY": 0.3046
   },
   {
     "id": "colombia",
@@ -797,7 +895,9 @@
     "mapY": 0.4778,
     "colorHex": "#43A047",
     "worldCup2026Group": "K",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2942,
+    "capitalMapY": 0.4744
   },
   {
     "id": "comoros",
@@ -813,7 +913,9 @@
     "mapY": 0.5676,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6202,
+    "capitalMapY": 0.565
   },
   {
     "id": "congo",
@@ -829,7 +931,9 @@
     "mapY": 0.5056,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5425,
+    "capitalMapY": 0.5237
   },
   {
     "id": "democratic_republic_of_the_congo",
@@ -845,7 +949,9 @@
     "mapY": 0.5,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5425,
+    "capitalMapY": 0.524
   },
   {
     "id": "north_korea",
@@ -861,7 +967,9 @@
     "mapY": 0.2778,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8493,
+    "capitalMapY": 0.2831
   },
   {
     "id": "south_korea",
@@ -877,7 +985,9 @@
     "mapY": 0.2944,
     "colorHex": "#E53935",
     "worldCup2026Group": "A",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.8527,
+    "capitalMapY": 0.2913
   },
   {
     "id": "costa_rica",
@@ -893,7 +1003,9 @@
     "mapY": 0.4444,
     "colorHex": "#2E7D32",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2664,
+    "capitalMapY": 0.4448
   },
   {
     "id": "croatia",
@@ -909,7 +1021,9 @@
     "mapY": 0.2491,
     "colorHex": "#1565C0",
     "worldCup2026Group": "L",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5444,
+    "capitalMapY": 0.2455
   },
   {
     "id": "cuba",
@@ -925,7 +1039,9 @@
     "mapY": 0.3806,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2712,
+    "capitalMapY": 0.3715
   },
   {
     "id": "curacao",
@@ -941,7 +1057,9 @@
     "mapY": 0.4327,
     "colorHex": "#43A047",
     "worldCup2026Group": "E",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.3086,
+    "capitalMapY": 0.4327
   },
   {
     "id": "ivory_coast",
@@ -957,7 +1075,9 @@
     "mapY": 0.4556,
     "colorHex": "#F9A825",
     "worldCup2026Group": "E",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4853,
+    "capitalMapY": 0.4621
   },
   {
     "id": "denmark",
@@ -973,7 +1093,9 @@
     "mapY": 0.1889,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5349,
+    "capitalMapY": 0.1907
   },
   {
     "id": "djibouti",
@@ -989,7 +1111,9 @@
     "mapY": 0.4361,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6198,
+    "capitalMapY": 0.4356
   },
   {
     "id": "dominica",
@@ -1005,7 +1129,9 @@
     "mapY": 0.4144,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3295,
+    "capitalMapY": 0.415
   },
   {
     "id": "spain",
@@ -1021,7 +1147,9 @@
     "mapY": 0.2778,
     "colorHex": "#1565C0",
     "worldCup2026Group": "H",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4897,
+    "capitalMapY": 0.2755
   },
   {
     "id": "estonia",
@@ -1037,7 +1165,9 @@
     "mapY": 0.1722,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5688,
+    "capitalMapY": 0.1698
   },
   {
     "id": "fiji_islands",
@@ -1053,7 +1183,9 @@
     "mapY": 0.6,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9956,
+    "capitalMapY": 0.6008
   },
   {
     "id": "finland",
@@ -1069,7 +1201,9 @@
     "mapY": 0.1444,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5693,
+    "capitalMapY": 0.1657
   },
   {
     "id": "france",
@@ -1085,7 +1219,9 @@
     "mapY": 0.2444,
     "colorHex": "#1565C0",
     "worldCup2026Group": "I",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5065,
+    "capitalMapY": 0.2286
   },
   {
     "id": "gabon",
@@ -1101,7 +1237,9 @@
     "mapY": 0.5056,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5263,
+    "capitalMapY": 0.4978
   },
   {
     "id": "the_gambia",
@@ -1117,7 +1255,9 @@
     "mapY": 0.4252,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4539,
+    "capitalMapY": 0.4253
   },
   {
     "id": "ghana",
@@ -1133,7 +1273,9 @@
     "mapY": 0.4556,
     "colorHex": "#F9A825",
     "worldCup2026Group": "L",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4995,
+    "capitalMapY": 0.4691
   },
   {
     "id": "gibraltar",
@@ -1149,7 +1291,9 @@
     "mapY": 0.2993,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4851,
+    "capitalMapY": 0.2992
   },
   {
     "id": "grenada",
@@ -1165,7 +1309,9 @@
     "mapY": 0.4327,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3285,
+    "capitalMapY": 0.433
   },
   {
     "id": "greenland",
@@ -1181,7 +1327,9 @@
     "mapY": 0.1,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3563,
+    "capitalMapY": 0.1434
   },
   {
     "id": "greece",
@@ -1197,7 +1345,9 @@
     "mapY": 0.2833,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5659,
+    "capitalMapY": 0.289
   },
   {
     "id": "guadeloupe",
@@ -1213,7 +1363,9 @@
     "mapY": 0.4097,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3285,
+    "capitalMapY": 0.4111
   },
   {
     "id": "guam",
@@ -1229,7 +1381,9 @@
     "mapY": 0.4252,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9021,
+    "capitalMapY": 0.4251
   },
   {
     "id": "guatemala",
@@ -1245,7 +1399,9 @@
     "mapY": 0.4139,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2486,
+    "capitalMapY": 0.4187
   },
   {
     "id": "french_guiana",
@@ -1261,7 +1417,9 @@
     "mapY": 0.4778,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3546,
+    "capitalMapY": 0.4726
   },
   {
     "id": "guernsey",
@@ -1277,7 +1435,9 @@
     "mapY": 0.2252,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.493,
+    "capitalMapY": 0.2252
   },
   {
     "id": "guinea",
@@ -1293,7 +1453,9 @@
     "mapY": 0.4389,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.462,
+    "capitalMapY": 0.447
   },
   {
     "id": "guinea_bissau",
@@ -1309,7 +1471,9 @@
     "mapY": 0.4333,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4567,
+    "capitalMapY": 0.4341
   },
   {
     "id": "equatorial_guinea",
@@ -1325,7 +1489,9 @@
     "mapY": 0.4889,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5301,
+    "capitalMapY": 0.4912
   },
   {
     "id": "guyana",
@@ -1341,7 +1507,9 @@
     "mapY": 0.4722,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3385,
+    "capitalMapY": 0.4622
   },
   {
     "id": "georgia",
@@ -1357,7 +1525,9 @@
     "mapY": 0.2667,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6245,
+    "capitalMapY": 0.2684
   },
   {
     "id": "south_georgia",
@@ -1373,7 +1543,9 @@
     "mapY": 0.8028,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3986,
+    "capitalMapY": 0.8016
   },
   {
     "id": "haiti",
@@ -1389,7 +1561,9 @@
     "mapY": 0.3944,
     "colorHex": "#2E7D32",
     "worldCup2026Group": "C",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2991,
+    "capitalMapY": 0.397
   },
   {
     "id": "honduras",
@@ -1405,7 +1579,9 @@
     "mapY": 0.4167,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2578,
+    "capitalMapY": 0.4218
   },
   {
     "id": "hong_kong_sar",
@@ -1421,7 +1597,9 @@
     "mapY": 0.3764,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8172,
+    "capitalMapY": 0.3762
   },
   {
     "id": "hungary",
@@ -1437,7 +1615,9 @@
     "mapY": 0.2389,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5529,
+    "capitalMapY": 0.2361
   },
   {
     "id": "india",
@@ -1453,7 +1633,9 @@
     "mapY": 0.3889,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7145,
+    "capitalMapY": 0.341
   },
   {
     "id": "indonesia",
@@ -1469,7 +1651,9 @@
     "mapY": 0.5278,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7968,
+    "capitalMapY": 0.5345
   },
   {
     "id": "iraq",
@@ -1485,7 +1669,9 @@
     "mapY": 0.3167,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6233,
+    "capitalMapY": 0.3148
   },
   {
     "id": "iran",
@@ -1501,7 +1687,9 @@
     "mapY": 0.3222,
     "colorHex": "#E53935",
     "worldCup2026Group": "G",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.6428,
+    "capitalMapY": 0.3017
   },
   {
     "id": "ireland",
@@ -1517,7 +1705,9 @@
     "mapY": 0.2056,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4826,
+    "capitalMapY": 0.2037
   },
   {
     "id": "iceland",
@@ -1533,7 +1723,9 @@
     "mapY": 0.1389,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4392,
+    "capitalMapY": 0.1437
   },
   {
     "id": "israel",
@@ -1549,7 +1741,9 @@
     "mapY": 0.325,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5965,
+    "capitalMapY": 0.325
   },
   {
     "id": "italy",
@@ -1565,7 +1759,9 @@
     "mapY": 0.262,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5348,
+    "capitalMapY": 0.2673
   },
   {
     "id": "jamaica",
@@ -1581,7 +1777,9 @@
     "mapY": 0.3986,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2867,
+    "capitalMapY": 0.4
   },
   {
     "id": "japan",
@@ -1597,7 +1795,9 @@
     "mapY": 0.3,
     "colorHex": "#E53935",
     "worldCup2026Group": "F",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.888,
+    "capitalMapY": 0.3017
   },
   {
     "id": "jersey",
@@ -1613,7 +1813,9 @@
     "mapY": 0.2264,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4942,
+    "capitalMapY": 0.2267
   },
   {
     "id": "jordan",
@@ -1629,7 +1831,9 @@
     "mapY": 0.3278,
     "colorHex": "#E53935",
     "worldCup2026Group": "J",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5998,
+    "capitalMapY": 0.3225
   },
   {
     "id": "kazakhstan",
@@ -1645,7 +1849,9 @@
     "mapY": 0.2333,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6985,
+    "capitalMapY": 0.2157
   },
   {
     "id": "kenya",
@@ -1661,7 +1867,9 @@
     "mapY": 0.4944,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6023,
+    "capitalMapY": 0.5071
   },
   {
     "id": "kyrgyzstan",
@@ -1677,7 +1885,9 @@
     "mapY": 0.2722,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7072,
+    "capitalMapY": 0.2618
   },
   {
     "id": "kiribati",
@@ -1693,7 +1903,9 @@
     "mapY": 0.4921,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9805,
+    "capitalMapY": 0.4926
   },
   {
     "id": "kosovo",
@@ -1709,7 +1921,9 @@
     "mapY": 0.2635,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5588,
+    "capitalMapY": 0.2629
   },
   {
     "id": "kuwait",
@@ -1725,7 +1939,9 @@
     "mapY": 0.3361,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6333,
+    "capitalMapY": 0.3368
   },
   {
     "id": "laos",
@@ -1741,7 +1957,9 @@
     "mapY": 0.4,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.785,
+    "capitalMapY": 0.4002
   },
   {
     "id": "lesotho",
@@ -1757,7 +1975,9 @@
     "mapY": 0.6639,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5763,
+    "capitalMapY": 0.6629
   },
   {
     "id": "latvia",
@@ -1773,7 +1993,9 @@
     "mapY": 0.1833,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.567,
+    "capitalMapY": 0.1836
   },
   {
     "id": "lebanon",
@@ -1789,7 +2011,9 @@
     "mapY": 0.312,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5986,
+    "capitalMapY": 0.3117
   },
   {
     "id": "liberia",
@@ -1805,7 +2029,9 @@
     "mapY": 0.4639,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.47,
+    "capitalMapY": 0.465
   },
   {
     "id": "libya",
@@ -1821,7 +2047,9 @@
     "mapY": 0.3611,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5366,
+    "capitalMapY": 0.3173
   },
   {
     "id": "liechtenstein",
@@ -1837,7 +2065,9 @@
     "mapY": 0.2374,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5264,
+    "capitalMapY": 0.2381
   },
   {
     "id": "lithuania",
@@ -1853,7 +2083,9 @@
     "mapY": 0.1889,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5702,
+    "capitalMapY": 0.1962
   },
   {
     "id": "luxembourg",
@@ -1869,7 +2101,9 @@
     "mapY": 0.2236,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.517,
+    "capitalMapY": 0.2244
   },
   {
     "id": "macau_sar",
@@ -1885,7 +2119,9 @@
     "mapY": 0.3769,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8154,
+    "capitalMapY": 0.3767
   },
   {
     "id": "north_macedonia",
@@ -1901,7 +2137,9 @@
     "mapY": 0.2676,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5595,
+    "capitalMapY": 0.2667
   },
   {
     "id": "madagascar",
@@ -1917,7 +2155,9 @@
     "mapY": 0.6111,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.632,
+    "capitalMapY": 0.6051
   },
   {
     "id": "malaysia",
@@ -1933,7 +2173,9 @@
     "mapY": 0.4861,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7825,
+    "capitalMapY": 0.4825
   },
   {
     "id": "malawi",
@@ -1949,7 +2191,9 @@
     "mapY": 0.575,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5939,
+    "capitalMapY": 0.5776
   },
   {
     "id": "maldives",
@@ -1965,7 +2209,9 @@
     "mapY": 0.4819,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7042,
+    "capitalMapY": 0.4768
   },
   {
     "id": "mali",
@@ -1981,7 +2227,9 @@
     "mapY": 0.4056,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4778,
+    "capitalMapY": 0.4299
   },
   {
     "id": "malta",
@@ -1997,7 +2245,9 @@
     "mapY": 0.3009,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5403,
+    "capitalMapY": 0.3006
   },
   {
     "id": "morocco",
@@ -2013,7 +2263,9 @@
     "mapY": 0.3222,
     "colorHex": "#F9A825",
     "worldCup2026Group": "C",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.481,
+    "capitalMapY": 0.311
   },
   {
     "id": "martinique",
@@ -2029,7 +2281,9 @@
     "mapY": 0.4185,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3303,
+    "capitalMapY": 0.4189
   },
   {
     "id": "mauritania",
@@ -2045,7 +2299,9 @@
     "mapY": 0.3889,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4556,
+    "capitalMapY": 0.3995
   },
   {
     "id": "mayotte",
@@ -2061,7 +2317,9 @@
     "mapY": 0.5713,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6256,
+    "capitalMapY": 0.571
   },
   {
     "id": "mexico",
@@ -2077,7 +2335,9 @@
     "mapY": 0.3722,
     "colorHex": "#43A047",
     "worldCup2026Group": "A",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2246,
+    "capitalMapY": 0.3921
   },
   {
     "id": "micronesia",
@@ -2093,7 +2353,9 @@
     "mapY": 0.4616,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9393,
+    "capitalMapY": 0.4615
   },
   {
     "id": "moldova",
@@ -2109,7 +2371,9 @@
     "mapY": 0.2389,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5802,
+    "capitalMapY": 0.2388
   },
   {
     "id": "monaco",
@@ -2125,7 +2389,9 @@
     "mapY": 0.257,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5206,
+    "capitalMapY": 0.257
   },
   {
     "id": "mongolia",
@@ -2141,7 +2407,9 @@
     "mapY": 0.2444,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7969,
+    "capitalMapY": 0.2338
   },
   {
     "id": "montserrat",
@@ -2157,7 +2425,9 @@
     "mapY": 0.4069,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3272,
+    "capitalMapY": 0.4072
   },
   {
     "id": "montenegro",
@@ -2173,7 +2443,9 @@
     "mapY": 0.2639,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5535,
+    "capitalMapY": 0.2642
   },
   {
     "id": "mozambique",
@@ -2189,7 +2461,9 @@
     "mapY": 0.6014,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5905,
+    "capitalMapY": 0.6443
   },
   {
     "id": "myanmar",
@@ -2205,7 +2479,9 @@
     "mapY": 0.3778,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.767,
+    "capitalMapY": 0.3903
   },
   {
     "id": "namibia",
@@ -2221,7 +2497,9 @@
     "mapY": 0.6222,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5475,
+    "capitalMapY": 0.6253
   },
   {
     "id": "nauru",
@@ -2237,7 +2515,9 @@
     "mapY": 0.503,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9637,
+    "capitalMapY": 0.5031
   },
   {
     "id": "nicaragua",
@@ -2253,7 +2533,9 @@
     "mapY": 0.4278,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2604,
+    "capitalMapY": 0.4326
   },
   {
     "id": "niger",
@@ -2269,7 +2551,9 @@
     "mapY": 0.4111,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5059,
+    "capitalMapY": 0.4249
   },
   {
     "id": "nigeria",
@@ -2285,7 +2569,9 @@
     "mapY": 0.4444,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5208,
+    "capitalMapY": 0.4497
   },
   {
     "id": "niue",
@@ -2301,7 +2587,9 @@
     "mapY": 0.6057,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.028,
+    "capitalMapY": 0.6058
   },
   {
     "id": "norway",
@@ -2317,7 +2605,9 @@
     "mapY": 0.1556,
     "colorHex": "#1565C0",
     "worldCup2026Group": "I",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5299,
+    "capitalMapY": 0.1672
   },
   {
     "id": "new_caledonia",
@@ -2333,7 +2623,9 @@
     "mapY": 0.6194,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9624,
+    "capitalMapY": 0.6237
   },
   {
     "id": "new_zealand",
@@ -2349,7 +2641,9 @@
     "mapY": 0.7278,
     "colorHex": "#FF7043",
     "worldCup2026Group": "G",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.9855,
+    "capitalMapY": 0.7294
   },
   {
     "id": "nepal",
@@ -2365,7 +2659,9 @@
     "mapY": 0.3444,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.737,
+    "capitalMapY": 0.3461
   },
   {
     "id": "oman",
@@ -2381,7 +2677,9 @@
     "mapY": 0.3833,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6622,
+    "capitalMapY": 0.369
   },
   {
     "id": "uzbekistan",
@@ -2397,7 +2695,9 @@
     "mapY": 0.2722,
     "colorHex": "#E53935",
     "worldCup2026Group": "K",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.6923,
+    "capitalMapY": 0.2708
   },
   {
     "id": "pakistan",
@@ -2413,7 +2713,9 @@
     "mapY": 0.3333,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7029,
+    "capitalMapY": 0.3127
   },
   {
     "id": "palau",
@@ -2429,7 +2731,9 @@
     "mapY": 0.4583,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.874,
+    "capitalMapY": 0.4583
   },
   {
     "id": "palestinian_territory_occupied",
@@ -2445,7 +2749,9 @@
     "mapY": 0.3228,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5978,
+    "capitalMapY": 0.3228
   },
   {
     "id": "panama",
@@ -2461,7 +2767,9 @@
     "mapY": 0.45,
     "colorHex": "#43A047",
     "worldCup2026Group": "L",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2791,
+    "capitalMapY": 0.45
   },
   {
     "id": "papua_new_guinea",
@@ -2477,7 +2785,9 @@
     "mapY": 0.5333,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9088,
+    "capitalMapY": 0.5527
   },
   {
     "id": "paraguay",
@@ -2493,7 +2803,9 @@
     "mapY": 0.6278,
     "colorHex": "#43A047",
     "worldCup2026Group": "D",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.3399,
+    "capitalMapY": 0.6405
   },
   {
     "id": "wales",
@@ -2509,7 +2821,9 @@
     "mapY": 0.245,
     "colorHex": "#3949AB",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4912,
+    "capitalMapY": 0.214
   },
   {
     "id": "netherlands",
@@ -2525,7 +2839,9 @@
     "mapY": 0.2083,
     "colorHex": "#1565C0",
     "worldCup2026Group": "F",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5136,
+    "capitalMapY": 0.209
   },
   {
     "id": "philippines",
@@ -2541,7 +2857,9 @@
     "mapY": 0.4278,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8361,
+    "capitalMapY": 0.4189
   },
   {
     "id": "poland",
@@ -2557,7 +2875,9 @@
     "mapY": 0.2111,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5584,
+    "capitalMapY": 0.2098
   },
   {
     "id": "french_polynesia",
@@ -2573,7 +2893,9 @@
     "mapY": 0.5833,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0845,
+    "capitalMapY": 0.5974
   },
   {
     "id": "puerto_rico",
@@ -2589,7 +2911,9 @@
     "mapY": 0.3986,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3164,
+    "capitalMapY": 0.3974
   },
   {
     "id": "portugal",
@@ -2605,7 +2929,9 @@
     "mapY": 0.2806,
     "colorHex": "#1565C0",
     "worldCup2026Group": "K",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4746,
+    "capitalMapY": 0.2849
   },
   {
     "id": "peru",
@@ -2621,7 +2947,9 @@
     "mapY": 0.5556,
     "colorHex": "#2E7D32",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.286,
+    "capitalMapY": 0.5669
   },
   {
     "id": "qatar",
@@ -2637,7 +2965,9 @@
     "mapY": 0.3583,
     "colorHex": "#E53935",
     "worldCup2026Group": "B",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.6431,
+    "capitalMapY": 0.3595
   },
   {
     "id": "romania",
@@ -2653,7 +2983,9 @@
     "mapY": 0.2444,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5725,
+    "capitalMapY": 0.2532
   },
   {
     "id": "england",
@@ -2669,7 +3001,9 @@
     "mapY": 0.2,
     "colorHex": "#1565C0",
     "worldCup2026Group": "L",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4996,
+    "capitalMapY": 0.2138
   },
   {
     "id": "russia",
@@ -2678,14 +3012,16 @@
     "flagEmoji": "🇷🇺",
     "capital": "Moscow",
     "population": "146 millions",
-    "continent": "Europe",
+    "continent": "Asie",
     "mainLanguage": "Russe",
     "currency": "Rouble russe",
     "mapX": 0.7778,
     "mapY": 0.1667,
-    "colorHex": "#1565C0",
+    "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6045,
+    "capitalMapY": 0.1903
   },
   {
     "id": "rwanda",
@@ -2701,7 +3037,9 @@
     "mapY": 0.5111,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5835,
+    "capitalMapY": 0.5108
   },
   {
     "id": "central_african_republic",
@@ -2717,7 +3055,9 @@
     "mapY": 0.4611,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5515,
+    "capitalMapY": 0.4758
   },
   {
     "id": "dominican_republic",
@@ -2733,7 +3073,9 @@
     "mapY": 0.3944,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3059,
+    "capitalMapY": 0.3974
   },
   {
     "id": "czech_republic",
@@ -2749,7 +3091,9 @@
     "mapY": 0.2236,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5401,
+    "capitalMapY": 0.2217
   },
   {
     "id": "reunion",
@@ -2765,7 +3109,9 @@
     "mapY": 0.6175,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.654,
+    "capitalMapY": 0.616
   },
   {
     "id": "western_sahara",
@@ -2781,7 +3127,9 @@
     "mapY": 0.3639,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4639,
+    "capitalMapY": 0.3639
   },
   {
     "id": "sint_maarten_(dutch_part)",
@@ -2797,7 +3145,9 @@
     "mapY": 0.3998,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3249,
+    "capitalMapY": 0.3999
   },
   {
     "id": "saint_barthelemy",
@@ -2813,7 +3163,9 @@
     "mapY": 0.3972,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3254,
+    "capitalMapY": 0.4006
   },
   {
     "id": "saint_kitts_and_nevis",
@@ -2829,7 +3181,9 @@
     "mapY": 0.4037,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3258,
+    "capitalMapY": 0.4039
   },
   {
     "id": "saint_lucia",
@@ -2845,7 +3199,9 @@
     "mapY": 0.4229,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3305,
+    "capitalMapY": 0.4222
   },
   {
     "id": "san_marino",
@@ -2861,7 +3217,9 @@
     "mapY": 0.2569,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5346,
+    "capitalMapY": 0.2559
   },
   {
     "id": "saint_martin_(french_part)",
@@ -2877,7 +3235,9 @@
     "mapY": 0.3995,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3248,
+    "capitalMapY": 0.3996
   },
   {
     "id": "saint_pierre_and_miquelon",
@@ -2893,7 +3253,9 @@
     "mapY": 0.2398,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.344,
+    "capitalMapY": 0.2401
   },
   {
     "id": "saint_vincent_and_the_grenadines",
@@ -2909,7 +3271,9 @@
     "mapY": 0.4264,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3299,
+    "capitalMapY": 0.4269
   },
   {
     "id": "saint_helena",
@@ -2925,7 +3289,9 @@
     "mapY": 0.5886,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4841,
+    "capitalMapY": 0.5885
   },
   {
     "id": "el_salvador",
@@ -2941,7 +3307,9 @@
     "mapY": 0.4231,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.2523,
+    "capitalMapY": 0.4239
   },
   {
     "id": "samoa",
@@ -2957,7 +3325,9 @@
     "mapY": 0.5755,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0229,
+    "capitalMapY": 0.5769
   },
   {
     "id": "american_samoa",
@@ -2973,7 +3343,9 @@
     "mapY": 0.5796,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0258,
+    "capitalMapY": 0.5793
   },
   {
     "id": "sao_tome_and_principe",
@@ -2989,7 +3361,9 @@
     "mapY": 0.4944,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5187,
+    "capitalMapY": 0.4981
   },
   {
     "id": "serbia",
@@ -3005,7 +3379,9 @@
     "mapY": 0.2556,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5568,
+    "capitalMapY": 0.2511
   },
   {
     "id": "seychelles",
@@ -3021,7 +3397,9 @@
     "mapY": 0.5259,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.654,
+    "capitalMapY": 0.5257
   },
   {
     "id": "sierra_leone",
@@ -3037,7 +3415,9 @@
     "mapY": 0.4528,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4632,
+    "capitalMapY": 0.4528
   },
   {
     "id": "singapore",
@@ -3053,7 +3433,9 @@
     "mapY": 0.4924,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7885,
+    "capitalMapY": 0.4928
   },
   {
     "id": "slovakia",
@@ -3069,7 +3451,9 @@
     "mapY": 0.2296,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5475,
+    "capitalMapY": 0.2325
   },
   {
     "id": "slovenia",
@@ -3085,7 +3469,9 @@
     "mapY": 0.2438,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5403,
+    "capitalMapY": 0.2442
   },
   {
     "id": "somalia",
@@ -3101,7 +3487,9 @@
     "mapY": 0.4444,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.626,
+    "capitalMapY": 0.4887
   },
   {
     "id": "sudan",
@@ -3117,7 +3505,9 @@
     "mapY": 0.4167,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5904,
+    "capitalMapY": 0.4136
   },
   {
     "id": "south_sudan",
@@ -3133,7 +3523,9 @@
     "mapY": 0.4611,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5877,
+    "capitalMapY": 0.473
   },
   {
     "id": "sri_lanka",
@@ -3149,7 +3541,9 @@
     "mapY": 0.4611,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7218,
+    "capitalMapY": 0.4615
   },
   {
     "id": "switzerland",
@@ -3165,7 +3559,9 @@
     "mapY": 0.2389,
     "colorHex": "#1565C0",
     "worldCup2026Group": "B",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5207,
+    "capitalMapY": 0.2392
   },
   {
     "id": "suriname",
@@ -3181,7 +3577,9 @@
     "mapY": 0.4778,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3468,
+    "capitalMapY": 0.4674
   },
   {
     "id": "sweden",
@@ -3197,7 +3595,9 @@
     "mapY": 0.1556,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5502,
+    "capitalMapY": 0.1704
   },
   {
     "id": "svalbard_and_jan_mayen_islands",
@@ -3213,7 +3613,9 @@
     "mapY": 0.0667,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5435,
+    "capitalMapY": 0.0654
   },
   {
     "id": "eswatini",
@@ -3229,7 +3631,9 @@
     "mapY": 0.6472,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5865,
+    "capitalMapY": 0.6462
   },
   {
     "id": "syria",
@@ -3245,7 +3649,9 @@
     "mapY": 0.3056,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6008,
+    "capitalMapY": 0.3138
   },
   {
     "id": "senegal",
@@ -3261,7 +3667,9 @@
     "mapY": 0.4222,
     "colorHex": "#F9A825",
     "worldCup2026Group": "I",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4515,
+    "capitalMapY": 0.4184
   },
   {
     "id": "tajikistan",
@@ -3277,7 +3685,9 @@
     "mapY": 0.2833,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6911,
+    "capitalMapY": 0.2859
   },
   {
     "id": "tanzania",
@@ -3293,7 +3703,9 @@
     "mapY": 0.5333,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5993,
+    "capitalMapY": 0.5343
   },
   {
     "id": "taiwan",
@@ -3309,7 +3721,9 @@
     "mapY": 0.3694,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8376,
+    "capitalMapY": 0.3608
   },
   {
     "id": "chad",
@@ -3325,7 +3739,9 @@
     "mapY": 0.4167,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5418,
+    "capitalMapY": 0.4327
   },
   {
     "id": "french_southern_territories",
@@ -3341,7 +3757,9 @@
     "mapY": 0.7736,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6951,
+    "capitalMapY": 0.7742
   },
   {
     "id": "british_indian_ocean_territory",
@@ -3357,7 +3775,9 @@
     "mapY": 0.5333,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6986,
+    "capitalMapY": 0.5333
   },
   {
     "id": "thailand",
@@ -3373,7 +3793,9 @@
     "mapY": 0.4167,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7792,
+    "capitalMapY": 0.4236
   },
   {
     "id": "timor_leste",
@@ -3389,7 +3811,9 @@
     "mapY": 0.5491,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.8488,
+    "capitalMapY": 0.5475
   },
   {
     "id": "togo",
@@ -3405,7 +3829,9 @@
     "mapY": 0.4556,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5034,
+    "capitalMapY": 0.466
   },
   {
     "id": "tokelau",
@@ -3421,7 +3847,9 @@
     "mapY": 0.55,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0222,
+    "capitalMapY": 0.55
   },
   {
     "id": "tonga",
@@ -3437,7 +3865,9 @@
     "mapY": 0.6111,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0133,
+    "capitalMapY": 0.6174
   },
   {
     "id": "trinidad_and_tobago",
@@ -3453,7 +3883,9 @@
     "mapY": 0.4389,
     "colorHex": "#2E7D32",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3291,
+    "capitalMapY": 0.4407
   },
   {
     "id": "tunisia",
@@ -3469,7 +3901,9 @@
     "mapY": 0.3111,
     "colorHex": "#F9A825",
     "worldCup2026Group": "F",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5282,
+    "capitalMapY": 0.2955
   },
   {
     "id": "turkmenistan",
@@ -3485,7 +3919,9 @@
     "mapY": 0.2778,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6622,
+    "capitalMapY": 0.2892
   },
   {
     "id": "turkey",
@@ -3501,7 +3937,9 @@
     "mapY": 0.2833,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5913,
+    "capitalMapY": 0.2782
   },
   {
     "id": "tuvalu",
@@ -3517,7 +3955,9 @@
     "mapY": 0.5444,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9978,
+    "capitalMapY": 0.5474
   },
   {
     "id": "uganda",
@@ -3533,7 +3973,9 @@
     "mapY": 0.4944,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5905,
+    "capitalMapY": 0.4982
   },
   {
     "id": "ukraine",
@@ -3549,7 +3991,9 @@
     "mapY": 0.2278,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5848,
+    "capitalMapY": 0.2197
   },
   {
     "id": "uruguay",
@@ -3565,7 +4009,9 @@
     "mapY": 0.6833,
     "colorHex": "#43A047",
     "worldCup2026Group": "H",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.3439,
+    "capitalMapY": 0.6939
   },
   {
     "id": "vanuatu",
@@ -3581,7 +4027,9 @@
     "mapY": 0.5889,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9675,
+    "capitalMapY": 0.5985
   },
   {
     "id": "venezuela",
@@ -3597,7 +4045,9 @@
     "mapY": 0.4556,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3142,
+    "capitalMapY": 0.4417
   },
   {
     "id": "vietnam",
@@ -3613,7 +4063,9 @@
     "mapY": 0.4102,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.794,
+    "capitalMapY": 0.3832
   },
   {
     "id": "wallis_and_futuna_islands",
@@ -3629,7 +4081,9 @@
     "mapY": 0.5739,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0106,
+    "capitalMapY": 0.5738
   },
   {
     "id": "yemen",
@@ -3645,7 +4099,9 @@
     "mapY": 0.4167,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6228,
+    "capitalMapY": 0.4147
   },
   {
     "id": "zambia",
@@ -3661,7 +4117,9 @@
     "mapY": 0.5833,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5786,
+    "capitalMapY": 0.5856
   },
   {
     "id": "zimbabwe",
@@ -3677,7 +4135,9 @@
     "mapY": 0.6111,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5863,
+    "capitalMapY": 0.599
   },
   {
     "id": "vatican_city_state_(holy_see)",
@@ -3693,7 +4153,9 @@
     "mapY": 0.2672,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5346,
+    "capitalMapY": 0.2672
   },
   {
     "id": "aland_islands",
@@ -3709,7 +4171,9 @@
     "mapY": 0.166,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5554,
+    "capitalMapY": 0.1661
   },
   {
     "id": "scotland",
@@ -3725,7 +4189,9 @@
     "mapY": 0.22,
     "colorHex": "#3949AB",
     "worldCup2026Group": "C",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.4911,
+    "capitalMapY": 0.1891
   },
   {
     "id": "egypt",
@@ -3741,7 +4207,9 @@
     "mapY": 0.35,
     "colorHex": "#F9A825",
     "worldCup2026Group": "G",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.5868,
+    "capitalMapY": 0.333
   },
   {
     "id": "united_arab_emirates",
@@ -3757,7 +4225,9 @@
     "mapY": 0.3667,
     "colorHex": "#E53935",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6511,
+    "capitalMapY": 0.3642
   },
   {
     "id": "ecuador",
@@ -3773,7 +4243,9 @@
     "mapY": 0.5111,
     "colorHex": "#43A047",
     "worldCup2026Group": "E",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.2819,
+    "capitalMapY": 0.5013
   },
   {
     "id": "eritrea",
@@ -3789,7 +4261,9 @@
     "mapY": 0.4167,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6081,
+    "capitalMapY": 0.4148
   },
   {
     "id": "usa",
@@ -3805,7 +4279,9 @@
     "mapY": 0.2889,
     "colorHex": "#43A047",
     "worldCup2026Group": "D",
-    "isWorldCup2026": true
+    "isWorldCup2026": true,
+    "capitalMapX": 0.286,
+    "capitalMapY": 0.2839
   },
   {
     "id": "ethiopia",
@@ -3821,7 +4297,9 @@
     "mapY": 0.4556,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6076,
+    "capitalMapY": 0.4499
   },
   {
     "id": "bouvet_island",
@@ -3837,7 +4315,9 @@
     "mapY": 0.8024,
     "colorHex": "#607D8B",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5094,
+    "capitalMapY": 0.8024
   },
   {
     "id": "christmas_island",
@@ -3853,7 +4333,9 @@
     "mapY": 0.5583,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7936,
+    "capitalMapY": 0.5579
   },
   {
     "id": "mauritius",
@@ -3869,7 +4351,9 @@
     "mapY": 0.6127,
     "colorHex": "#F9A825",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.6597,
+    "capitalMapY": 0.612
   },
   {
     "id": "man_(isle_of)",
@@ -3885,7 +4369,9 @@
     "mapY": 0.1986,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4875,
+    "capitalMapY": 0.1992
   },
   {
     "id": "norfolk_island",
@@ -3901,7 +4387,9 @@
     "mapY": 0.6613,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9666,
+    "capitalMapY": 0.6614
   },
   {
     "id": "cayman_islands",
@@ -3917,7 +4405,9 @@
     "mapY": 0.3917,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.274,
+    "capitalMapY": 0.3929
   },
   {
     "id": "cocos_(keeling)_islands",
@@ -3933,7 +4423,9 @@
     "mapY": 0.5694,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.769,
+    "capitalMapY": 0.5675
   },
   {
     "id": "cook_islands",
@@ -3949,7 +4441,9 @@
     "mapY": 0.618,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.0562,
+    "capitalMapY": 0.6178
   },
   {
     "id": "faroe_islands",
@@ -3965,7 +4459,9 @@
     "mapY": 0.1556,
     "colorHex": "#1565C0",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.4812,
+    "capitalMapY": 0.1555
   },
   {
     "id": "heard_island_and_mcdonald_islands",
@@ -3981,7 +4477,9 @@
     "mapY": 0.795,
     "colorHex": "#607D8B",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.7014,
+    "capitalMapY": 0.795
   },
   {
     "id": "falkland_islands",
@@ -3997,7 +4495,9 @@
     "mapY": 0.7875,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3393,
+    "capitalMapY": 0.7872
   },
   {
     "id": "northern_mariana_islands",
@@ -4013,7 +4513,9 @@
     "mapY": 0.4156,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9049,
+    "capitalMapY": 0.4155
   },
   {
     "id": "marshall_islands",
@@ -4029,7 +4531,9 @@
     "mapY": 0.45,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9761,
+    "capitalMapY": 0.4606
   },
   {
     "id": "pitcairn_island",
@@ -4045,7 +4549,9 @@
     "mapY": 0.6393,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.1386,
+    "capitalMapY": 0.6393
   },
   {
     "id": "solomon_islands",
@@ -4061,7 +4567,9 @@
     "mapY": 0.5444,
     "colorHex": "#FF7043",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.9443,
+    "capitalMapY": 0.5524
   },
   {
     "id": "turks_and_caicos_islands",
@@ -4077,7 +4585,9 @@
     "mapY": 0.3792,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3024,
+    "capitalMapY": 0.3808
   },
   {
     "id": "virgin_islands_(british)",
@@ -4093,7 +4603,9 @@
     "mapY": 0.3976,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3205,
+    "capitalMapY": 0.3976
   },
   {
     "id": "virgin_islands_(us)",
@@ -4109,7 +4621,9 @@
     "mapY": 0.3981,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.3196,
+    "capitalMapY": 0.3981
   },
   {
     "id": "united_states_minor_outlying_islands",
@@ -4125,6 +4639,8 @@
     "mapY": 0.5,
     "colorHex": "#43A047",
     "worldCup2026Group": null,
-    "isWorldCup2026": false
+    "isWorldCup2026": false,
+    "capitalMapX": 0.5,
+    "capitalMapY": 0.5
   }
 ]

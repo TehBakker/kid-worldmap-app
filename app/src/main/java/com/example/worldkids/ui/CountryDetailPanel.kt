@@ -28,6 +28,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.worldkids.data.Country
 import com.example.worldkids.data.CountryContent
+import com.example.worldkids.data.CountryShape
+import com.example.worldkids.data.ContinentResolver
 import com.example.worldkids.data.Match
 import com.example.worldkids.theme.CoralOrange
 import com.example.worldkids.theme.DividerGray
@@ -38,8 +40,10 @@ import com.example.worldkids.theme.SurfaceCard
 import com.example.worldkids.theme.SurfaceWhite
 import com.example.worldkids.theme.TextMain
 import com.example.worldkids.theme.TextSub
+import com.example.worldkids.ui.components.CountryShapeBadge
 import com.example.worldkids.ui.components.FlagBadge
 import com.example.worldkids.ui.components.ImageGallery
+import com.example.worldkids.ui.components.WorldCupBadge
 
 @Composable
 fun CountryDetailPanel(
@@ -48,7 +52,8 @@ fun CountryDetailPanel(
     onCountryFromMatchClick: (String) -> Unit,
     countryById: (String) -> Country?,
     modifier: Modifier = Modifier,
-    tvMode: Boolean = false
+    tvMode: Boolean = false,
+    borders: Map<String, CountryShape> = emptyMap()
 ) {
     AnimatedVisibility(
         visible = country != null || selectedMatch != null,
@@ -62,7 +67,7 @@ fun CountryDetailPanel(
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
         ) {
             Column(
-                modifier = Modifier.padding(20.dp)
+                modifier = Modifier.padding(if (country != null && selectedMatch == null) 16.dp else 20.dp)
             ) {
                 when {
                     selectedMatch != null && country == null -> {
@@ -77,7 +82,8 @@ fun CountryDetailPanel(
                         CountryDetailContent(
                             country = country,
                             imageHeight = if (tvMode) 160 else 120,
-                            tvMode = tvMode
+                            tvMode = tvMode,
+                            shape = borders[country.id]
                         )
                     }
                 }
@@ -176,82 +182,73 @@ private fun MatchCountryCard(country: Country, onClick: () -> Unit, tvMode: Bool
 // ── Fiche pays ────────────────────────────────────────────────────────────────
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun CountryDetailContent(country: Country, imageHeight: Int, tvMode: Boolean) {
-    // En-tête : drapeau + nom
+private fun CountryDetailContent(
+    country: Country,
+    imageHeight: Int,
+    tvMode: Boolean,
+    shape: CountryShape?
+) {
+    // En-tête : drapeau · (nom + CDM à droite) · silhouette
     Row(verticalAlignment = Alignment.CenterVertically) {
-        FlagBadge(emoji = country.flagEmoji, fontSize = if (tvMode) 52 else 42)
-        Spacer(Modifier.width(14.dp))
-        Column {
-            Text(
-                text = country.nameFr,
-                style = MaterialTheme.typography.headlineMedium.copy(
-                    fontWeight = FontWeight.Bold,
-                    color = NavyBlue
-                )
-            )
-            Text(
-                text = country.nameEn,
-                style = MaterialTheme.typography.bodyMedium.copy(color = TextSub)
-            )
-            if (country.isWorldCup2026) {
-                Spacer(Modifier.height(4.dp))
+        FlagBadge(
+            emoji = country.flagEmoji,
+            fontSize = if (tvMode) 48 else 38,
+            compact = true
+        )
+        Spacer(Modifier.width(8.dp))
+        Row(
+            modifier = Modifier.weight(1f),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = "⚽ CDM 2026 · Poule ${country.worldCup2026Group ?: "?"}",
-                    style = MaterialTheme.typography.labelLarge.copy(color = CoralOrange),
-                    modifier = Modifier
-                        .background(CoralOrange.copy(alpha = 0.1f), RoundedCornerShape(8.dp))
-                        .padding(horizontal = 8.dp, vertical = 4.dp)
+                    text = country.nameFr,
+                    style = MaterialTheme.typography.titleLarge.copy(
+                        fontWeight = FontWeight.Bold,
+                        color = NavyBlue
+                    )
+                )
+                Text(
+                    text = country.nameEn,
+                    style = MaterialTheme.typography.bodySmall.copy(color = TextSub)
                 )
             }
+            WorldCupBadge(country = country, tvMode = tvMode)
         }
+        Spacer(Modifier.width(8.dp))
+        CountryShapeBadge(
+            country = country,
+            shape = shape,
+            sizeDp = if (tvMode) 62 else 52
+        )
     }
 
-    Spacer(Modifier.height(14.dp))
+    Spacer(Modifier.height(10.dp))
     HorizontalDivider(color = DividerGray)
-    Spacer(Modifier.height(14.dp))
+    Spacer(Modifier.height(10.dp))
 
     // Infos clés
     InfoGrid(country = country)
 
     Spacer(Modifier.height(14.dp))
 
-    // À retenir
+    // À retenir : 3 phrases courtes et mémorables
     Text(
-        text = "🧠 À retenir",
-        style = MaterialTheme.typography.titleMedium.copy(
-            fontWeight = FontWeight.SemiBold,
-            color = TextMain
-        )
-    )
-    Spacer(Modifier.height(6.dp))
-    Text(
-        text = CountryContent.displayMemoryHook(country),
-        style = MaterialTheme.typography.bodyMedium.copy(color = TextMain),
-        modifier = Modifier
-            .fillMaxWidth()
-            .background(SunYellow.copy(alpha = 0.15f), RoundedCornerShape(12.dp))
-            .padding(12.dp)
-    )
-
-    Spacer(Modifier.height(14.dp))
-
-    // Faits
-    Text(
-        text = CountryContent.displayTitle(country),
+        text = "À retenir",
         style = MaterialTheme.typography.titleMedium.copy(
             fontWeight = FontWeight.SemiBold,
             color = CoralOrange
         )
     )
     Spacer(Modifier.height(8.dp))
-    CountryContent.displayFacts(country).take(3).forEach { fact ->
+    CountryContent.memorableFacts(country).forEach { fact ->
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 8.dp)
-                .background(SurfaceCard, RoundedCornerShape(10.dp))
-                .padding(10.dp),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
+                .background(SunYellow.copy(alpha = 0.15f), RoundedCornerShape(12.dp))
+                .padding(12.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
             verticalAlignment = Alignment.Top
         ) {
             Text(text = "✦", style = MaterialTheme.typography.bodyMedium.copy(color = SkyTeal))
@@ -263,8 +260,8 @@ private fun CountryDetailContent(country: Country, imageHeight: Int, tvMode: Boo
     }
 
     // Galerie
-    if (country.images.isNotEmpty()) {
-        Spacer(Modifier.height(14.dp))
+    if (CountryContent.gallery(country).isNotEmpty()) {
+        Spacer(Modifier.height(6.dp))
         Text(
             text = "Galerie",
             style = MaterialTheme.typography.titleMedium.copy(
@@ -279,19 +276,13 @@ private fun CountryDetailContent(country: Country, imageHeight: Int, tvMode: Boo
 
 @Composable
 private fun InfoGrid(country: Country) {
-    val titles = CountryContent.worldCupTitles(country)
-    val items = buildList {
-        add("🏛️" to Pair("Capitale", country.capital))
-        add("👥" to Pair("Population", country.population))
-        add("🌍" to Pair("Continent", country.continent))
-        add("🗣️" to Pair("Langue", country.mainLanguage))
-        add("💰" to Pair("Monnaie", country.currency))
-        if (titles > 0) {
-            add("🏆" to Pair("Coupes du monde", "$titles fois championne"))
-        } else if (country.isWorldCup2026) {
-            add("🏆" to Pair("Coupes du monde", "Pas encore gagnée"))
-        }
-    }
+    val items = listOf(
+        "🏛️" to Pair("Capitale", country.capital),
+        "👥" to Pair("Population", country.population),
+        "🌍" to Pair("Continent", ContinentResolver.mapContinent(country)),
+        "🗣️" to Pair("Langue", country.mainLanguage),
+        "💰" to Pair("Monnaie", CountryContent.currencyLabel(country))
+    )
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         items.forEach { (icon, pair) ->
             val (label, value) = pair

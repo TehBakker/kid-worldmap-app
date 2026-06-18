@@ -101,7 +101,7 @@ fun HomeScreen(
                         .padding(horizontal = 16.dp, vertical = 8.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    ExplorerSection(viewModel = viewModel, tvMode = tvMode)
+                    ExplorerSection(viewModel = viewModel, tvMode = tvMode, isWide = isWide)
                     WorldMapSection(viewModel = viewModel, mapHeight = mapHeight, tvMode = tvMode)
                 }
                 // Colonne droite : fiche pays
@@ -116,7 +116,8 @@ fun HomeScreen(
                         selectedMatch = if (viewModel.selectedCountry == null) viewModel.selectedMatch else null,
                         onCountryFromMatchClick = viewModel::selectCountryById,
                         countryById = viewModel::countryById,
-                        tvMode = tvMode
+                        tvMode = tvMode,
+                        borders = viewModel.borders
                     )
                 }
             }
@@ -128,7 +129,7 @@ fun HomeScreen(
                     .padding(horizontal = 16.dp, vertical = 8.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                ExplorerSection(viewModel = viewModel, tvMode = tvMode)
+                ExplorerSection(viewModel = viewModel, tvMode = tvMode, isWide = isWide)
                 WorldMapSection(viewModel = viewModel, mapHeight = mapHeight, tvMode = tvMode)
                 AnimatedVisibility(
                     visible = viewModel.selectedCountry != null || viewModel.selectedMatch != null,
@@ -140,7 +141,8 @@ fun HomeScreen(
                         selectedMatch = if (viewModel.selectedCountry == null) viewModel.selectedMatch else null,
                         onCountryFromMatchClick = viewModel::selectCountryById,
                         countryById = viewModel::countryById,
-                        tvMode = tvMode
+                        tvMode = tvMode,
+                        borders = viewModel.borders
                     )
                 }
                 Spacer(Modifier.height(8.dp))
@@ -219,7 +221,11 @@ private fun WorldMapSection(viewModel: HomeViewModel, mapHeight: androidx.compos
             highlightedCountryIds = viewModel.highlightedCountryIds,
             selectedMatch = viewModel.selectedMatch,
             focusCountryId = viewModel.focusCountryId,
+            focusedContinent = viewModel.focusedContinent,
+            countryExtruded = viewModel.countryExtruded,
             onCountryTapped = viewModel::selectCountry,
+            onBackToContinent = viewModel::backToContinent,
+            onBackToWorld = viewModel::backToWorld,
             showConfetti = viewModel.showConfetti,
             modifier = Modifier
                 .fillMaxWidth()
@@ -232,14 +238,14 @@ private fun WorldMapSection(viewModel: HomeViewModel, mapHeight: androidx.compos
 
 // ── Section recherche / Coupe du monde repliable (au-dessus de la carte) ──────
 @Composable
-private fun ExplorerSection(viewModel: HomeViewModel, tvMode: Boolean) {
+private fun ExplorerSection(viewModel: HomeViewModel, tvMode: Boolean, isWide: Boolean) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Box(modifier = Modifier.weight(1f)) {
-                ModeSegmentedControl(viewModel = viewModel, tvMode = tvMode)
+                ModeSegmentedControl(viewModel = viewModel, tvMode = tvMode, isWide = isWide)
             }
             CollapseToggle(
                 expanded = viewModel.explorerExpanded,
@@ -275,7 +281,7 @@ private fun CollapseToggle(expanded: Boolean, onClick: () -> Unit) {
 
 // ── Segmented control Explorer / Coupe du monde ──────────────────────────────
 @Composable
-private fun ModeSegmentedControl(viewModel: HomeViewModel, tvMode: Boolean) {
+private fun ModeSegmentedControl(viewModel: HomeViewModel, tvMode: Boolean, isWide: Boolean) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -286,6 +292,8 @@ private fun ModeSegmentedControl(viewModel: HomeViewModel, tvMode: Boolean) {
         MainTab.entries.forEach { tab ->
             val selected = viewModel.mainTab == tab
             val icon = if (tab == MainTab.EXPLORE) Icons.Rounded.Public else Icons.Rounded.SportsSoccer
+            // Libellé court "CDM" sur mobile pour éviter le retour à la ligne.
+            val label = if (tab == MainTab.WORLD_CUP && !isWide) "CDM" else tab.label
             Card(
                 onClick = { viewModel.onMainTabChange(tab) },
                 modifier = Modifier.weight(1f),
@@ -310,7 +318,9 @@ private fun ModeSegmentedControl(viewModel: HomeViewModel, tvMode: Boolean) {
                     )
                     Spacer(Modifier.size(6.dp))
                     Text(
-                        text = tab.label,
+                        text = label,
+                        maxLines = 1,
+                        softWrap = false,
                         style = MaterialTheme.typography.labelLarge.copy(
                             color = if (selected) SurfaceWhite else TextSub,
                             fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal

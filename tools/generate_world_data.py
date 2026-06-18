@@ -27,6 +27,12 @@ CONTINENT_COLOR = {
     "Antarctique": "#90A4AE",
 }
 
+# Corrections manuelles de continent (id interne -> continent FR).
+# Ex. la Russie est rangée en Asie pour une Europe plus lisible.
+CONTINENT_OVERRIDES = {
+    "russia": "Asie",
+}
+
 # Poules officielles CDM 2026 (tirage du 5 déc. 2025 — barrages mars 2026 en placeholders)
 WC2026_GROUPS = {
     "A": ["mexico", "south_africa", "south_korea", "playoff_uefa_d"],
@@ -180,6 +186,7 @@ def main():
             continent = "Amérique du Sud" if lat < 12 else CONTINENT_FR.get("North America", "Amérique du Nord")
         else:
             continent = CONTINENT_FR.get(cont_en, cont_en)
+        continent = CONTINENT_OVERRIDES.get(cid, continent)
 
         langs = c.get("languages") or {}
         main_lang = next(iter(langs.values()), "—")

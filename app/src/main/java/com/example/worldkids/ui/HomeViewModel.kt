@@ -6,6 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import com.example.worldkids.data.Country
+import com.example.worldkids.data.ContinentResolver
 import com.example.worldkids.data.MainTab
 import com.example.worldkids.data.Match
 import com.example.worldkids.data.MatchFilter
@@ -34,7 +35,15 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     var selectedCountry by mutableStateOf<Country?>(null)
         private set
 
+    /** Pays « extrait » sur la carte (levé au-dessus du continent). Indépendant de la fiche. */
+    var countryExtruded by mutableStateOf(false)
+        private set
+
     var selectedGroupId by mutableStateOf<String?>(null)
+        private set
+
+    /** Continent actuellement « présenté » (vue continent cliquable), indépendant du pays. */
+    var focusedContinent by mutableStateOf<String?>(null)
         private set
 
     var showConfetti by mutableStateOf(false)
@@ -60,7 +69,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         }
 
     val focusCountryId: String?
-        get() = selectedCountry?.id
+        get() = selectedCountry?.id?.takeIf { countryExtruded }
 
     fun onMainTabChange(tab: MainTab) {
         mainTab = tab
@@ -77,20 +86,39 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     fun selectMatch(match: Match) {
         selectedMatch = match
         selectedCountry = null
+        countryExtruded = false
         selectedGroupId = null
+        focusedContinent = null
         showConfetti = true
     }
 
     fun selectCountry(country: Country) {
         selectedCountry = country
+        countryExtruded = true
         selectedMatch = null
         selectedGroupId = country.worldCup2026Group
+        focusedContinent = ContinentResolver.mapContinent(country)
         // On replie la recherche pour laisser place à la carte + à la fiche détaillée
         explorerExpanded = false
     }
 
     fun selectCountryById(id: String) {
         repository.countryById(id)?.let { selectCountry(it) }
+    }
+
+    /** Niveau 1 de retour : repose le pays sur la carte, la fiche reste ouverte. */
+    fun backToContinent() {
+        countryExtruded = false
+        selectedMatch = null
+    }
+
+    /** Niveau 2 de retour : referme la vue continent, retour à la carte monde. */
+    fun backToWorld() {
+        selectedCountry = null
+        countryExtruded = false
+        selectedGroupId = null
+        selectedMatch = null
+        focusedContinent = null
     }
 
     fun toggleExplorer() {
@@ -101,6 +129,8 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         selectedGroupId = groupId
         selectedMatch = null
         selectedCountry = null
+        countryExtruded = false
+        focusedContinent = null
     }
 
     fun searchCountries(query: String): List<Country> = repository.searchCountries(query)

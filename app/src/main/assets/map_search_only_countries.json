@@ -1,0 +1,25 @@
+{
+  "description": "Pays non cliquables sur la carte (continent ou monde). Accessibles uniquement via la recherche texte.",
+  "notes": [
+    "Dans cette app, le Royaume-Uni a l'id « england » : ne pas l'ajouter ici.",
+    "Les nations constitutives (scotland, wales) restent en recherche seule pour éviter les clics accidentels.",
+    "minMainlandArea : surface minimale (coords 0..1) pour un pays sans entrée explicite ci-dessous."
+  ],
+  "minMainlandArea": 0.00015,
+  "countryIds": [
+    "vatican_city_state_(holy_see)",
+    "san_marino",
+    "monaco",
+    "andorra",
+    "liechtenstein",
+    "luxembourg",
+    "malta",
+    "wales",
+    "scotland",
+    "gibraltar",
+    "faroe_islands",
+    "man_(isle_of)",
+    "jersey",
+    "guernsey"
+  ]
+}

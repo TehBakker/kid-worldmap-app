@@ -146,6 +146,60 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 - [ ] L'écran reste agréable en portrait
 - [ ] L'écran reste lisible en paysage / cast TV
 
+---
+
+## Fiche pays enrichie (v1.3)
+
+### Nouvelles fonctionnalités
+
+- **Silhouette du pays** dans l'en-tête de la fiche, à droite du nom (`CountryShapeBadge`).
+  Le tracé utilise les vraies frontières (`country_borders.json`). Si une forme manque,
+  un *fallback* propre affiche les initiales du pays dans un bloc arrondi.
+- **Symbole de monnaie** affiché à côté du nom (ex. « Euro € », « Yen ¥ »).
+  Aucun symbole moche n'est forcé : si le rendu n'est pas propre, seul le nom s'affiche.
+- **Étoiles Coupe du monde** (façon maillot, 1 titre = 1 étoile) via `WorldCupStars`,
+  à la place du texte « X fois championne ».
+- **Label « CDM »** sur mobile (au lieu de « Coupe du monde » qui passait sur deux lignes).
+  Le libellé long reste sur les écrans larges / Mode TV.
+- **Section « À retenir »** repensée : 3 phrases courtes, mémorables et adaptées aux
+  enfants (l'ancienne section « cerveau » + mots-clés a été supprimée).
+- **Galerie cliquable** : miniatures emblématiques (`CountryImage`) ouvrant une
+  visionneuse plein écran (`FullscreenImageViewer`) avec fond sombre, légende, bouton
+  fermer et fermeture par le bouton retour Android. Fallback coloré si l'image ne charge pas.
+
+### Où modifier les données
+
+Tout le contenu éditorial se trouve dans `app/src/main/java/com/example/worldkids/data/CountryContent.kt` :
+
+| Quoi | Où | Détail |
+|------|-----|--------|
+| **Symboles de monnaie** | `CountryContent.currencySymbol()` | table de mots-clés Unicode (€, £, ¥, ₩, R$, $…). Mets `null` pour ne rien afficher. |
+| **Nombre d'étoiles CDM** | `CountryContent.WORLD_CUP_TITLES` | `"brazil" to 5`, `"france" to 2`… (surchargeable par `Country.worldCupTitles`). |
+| **Silhouettes des pays** | `country_borders.json` | vraies frontières. Surcharge future possible via `Country.shapePathData`. Fallback initiales automatique. |
+| **Phrases « À retenir »** | `CountryContent.MEMORABLE_FACTS` ou `country_details.json` (clé `memorableFacts`) | 3 phrases max, kid-friendly. |
+| **Images de galerie** | `CountryContent.GALLERIES` | `CountryImage(title, imageUrl, caption, sourceLabel, sourceUrl)` — URLs Wikimedia Commons, faciles à remplacer. |
+
+> Astuce galerie : la fonction `wiki(title, caption, path)` construit l'URL de vignette
+> 320 px à partir d'un chemin Wikimedia Commons (ex. `a/a8/Tour_Eiffel_Wikimedia_Commons.jpg`).
+
+### Checklist de test (v1.3)
+
+- [ ] La fiche pays affiche **drapeau + nom + silhouette**
+- [ ] La France affiche bien **€**
+- [ ] Le Japon affiche bien **¥**
+- [ ] Les pays sans symbole propre n'affichent rien de bizarre (juste le nom)
+- [ ] Le label mobile affiche **« CDM »** et ne passe pas sur deux lignes
+- [ ] La France affiche **2 étoiles**
+- [ ] Le Brésil affiche **5 étoiles**
+- [ ] La section cerveau / mots-clés a disparu
+- [ ] La nouvelle section « À retenir » affiche 3 phrases utiles
+- [ ] Les miniatures de galerie s'affichent
+- [ ] Un clic sur une image ouvre le plein écran
+- [ ] Le bouton retour Android ferme le plein écran
+- [ ] Aucun crash si une image ne charge pas
+- [ ] Le Mode TV reste cohérent (silhouette + étoiles lisibles)
+- [ ] Le rendu téléphone portrait reste impeccable
+
 ## Checklist de tests manuels
 
 - [ ] L'app démarre sans crash
