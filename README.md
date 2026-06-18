@@ -14,12 +14,13 @@ Toutes les données sont **locales** : pas de backend, pas de base de données e
 
 ## 2. Fonctionnalités
 
-- Planisphère stylisé avec marqueurs animés (pulse, zoom, ligne entre deux pays)
-- 16 pays avec fiches ludiques (faits, drapeau, capitale, galerie d'images)
-- 8 matchs démo personnalisables dans `DemoData.kt`
-- Recherche pays instantanée
+- Planisphère stylisé avec marqueurs animés (pulse, zoom auto, labels, ligne entre deux pays)
+- **~250 pays et territoires** dans `world_countries.json` (recherche avec autocomplétion)
+- **48 équipes CDM 2026** réparties en **12 poules** (onglet dédié)
+- Matchs **Coupe du monde 2026** dans `matches.json`
+- Fiches enrichies pour les grands pays (`country_details.json`) + fiches auto pour les autres
 - Bouton Cast (ouvre les réglages Android)
-- Mode TV (textes plus grands, interface aérée, plein écran)
+- Mode TV (paysage, textes plus grands, plein écran)
 - Images externes via Coil avec fallback coloré
 
 ## 3. Prérequis
@@ -87,21 +88,22 @@ adb install -r app\build\outputs\apk\debug\app-debug.apk
 
 ## 8. Modifier les pays
 
-Fichier : `app/src/main/java/com/example/worldkids/data/DemoData.kt`
+- **Tous les pays** : `app/src/main/assets/world_countries.json` (régénérer avec `python tools/generate_world_data.py`)
+- **Fiche enrichie** (faits enfants, images) : `app/src/main/assets/country_details.json`
+- **Modèle** : `docs/country_template.json`
 
-Modifier ou ajouter des entrées dans la liste `countries` (nom, faits, coordonnées `mapX`/`mapY`, URLs images, etc.).
+## 9. Modifier les matchs et poules CDM 2026
 
-## 9. Modifier les matchs
-
-Même fichier : `DemoData.kt`, liste `demoMatches`.
-
-Un commentaire dans le code indique où remplacer les matchs démo par les vrais matchs de Coupe du monde.
+- **Matchs** : `app/src/main/assets/matches.json`
+- **Poules** : `app/src/main/assets/worldcup_2026_groups.json` (tirage officiel déc. 2025 + barrages en placeholders)
+- Script de régénération : `python tools/generate_world_data.py`
 
 ## 10. Limites connues
 
 - Pas de Google Cast SDK natif dans ce MVP
 - Les images sont chargées depuis Internet (URLs Wikimedia) — nécessite une connexion
-- Les matchs sont des **données démo**, pas officielles
+- Les matchs CDM 2026 sont partiels (calendrier complet à venir sur FIFA.com)
+- 6 places de barrage encore en « placeholder » jusqu'en mars 2026
 - Le planisphère est stylisé, pas une carte géographique précise
 
 ## 11. Prochaines améliorations
@@ -110,13 +112,50 @@ Voir [ROADMAP.md](ROADMAP.md).
 
 ---
 
+## Refonte UI (v1.2)
+
+### Changements visuels appliqués
+
+- **Thème Material 3** entièrement refondu : fond crème chaud, bleu marine profond, teal doux, accents jaune/orange
+- **Top Bar compacte** : titre + sous-titre élégants, bouton Cast compact, toggle TV discret, respect des safe areas Android
+- **Navigation par segmented control** : Explorer / Coupe du monde — plus clair que des onglets
+- **Recherche pays** : carte blanche arrondie, chips de pays populaires (France, Brésil, Japon…), suggestions élégantes
+- **Carrousel de matchs** : cartes compactes avec drapeaux, VS en couleur, noms courts
+- **Fiche pays** : drapeau grand, infos structurées, section "À retenir" fond jaune, 3 faits, galerie
+- **Fiche match** : deux cartes pays cliquables, invitation à en apprendre plus
+- **Mode TV** : échelle de typographie +28%, bandeau discret en haut
+
+### Comment tester sur Samsung S25
+
+```bash
+# Brancher le S25 en USB, mode débogage activé
+./gradlew assembleDebug
+adb install app/build/outputs/apk/debug/app-debug.apk
+```
+
+### Checklist visuelle
+
+- [ ] Le titre ne chevauche pas la barre d'état Android
+- [ ] La carte est visible sans écraser tout l'écran
+- [ ] La recherche est compacte (pas un grand champ)
+- [ ] Les pays populaires s'affichent en chips
+- [ ] Un match sélectionné met bien deux pays en avant
+- [ ] La fiche pays s'affiche avec drapeau grand et faits
+- [ ] Le Mode TV grossit l'interface sans la casser
+- [ ] Le bouton Cast ouvre les réglages Android (icône écran)
+- [ ] L'écran reste agréable en portrait
+- [ ] L'écran reste lisible en paysage / cast TV
+
 ## Checklist de tests manuels
 
 - [ ] L'app démarre sans crash
 - [ ] Le planisphère s'affiche
 - [ ] Je peux choisir un match
 - [ ] Les 2 pays du match sont mis en avant sur la carte
-- [ ] Je peux chercher « France »
+- [ ] L'onglet **Coupe du monde** affiche les poules et matchs
+- [ ] Je peux toucher une poule pour mettre 4 pays en avant
+- [ ] La recherche avec autocomplétion trouve n'importe quel pays (ex. Islande)
+- [ ] Les chips populaires affichent France, Brésil, Japon…
 - [ ] La fiche France s'affiche avec faits et images
 - [ ] Les images en erreur affichent un placeholder (pas de crash)
 - [ ] Le bouton Cast ouvre les réglages Android

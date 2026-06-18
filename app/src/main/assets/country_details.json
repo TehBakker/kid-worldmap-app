@@ -1,0 +1,428 @@
+{
+  "france": {
+    "kidFactTitle": "Tour Eiffel et fromage",
+    "memoryHook": "Tour Eiffel, fromage, football",
+    "kidFacts": [
+      "La capitale est Paris, connue pour la tour Eiffel.",
+      "On y mange beaucoup de pain, de fromage et de pâtisseries.",
+      "Les Alpes sont de grandes montagnes où l'on peut skier."
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/320px-Tour_Eiffel_Wikimedia_Commons.jpg"
+    ]
+  },
+  "brazil": {
+    "kidFactTitle": "Amazonie et carnaval",
+    "memoryHook": "Football, Amazonie, carnaval",
+    "kidFacts": [
+      "Le Brésil est le plus grand pays d'Amérique du Sud.",
+      "L'Amazonie abrite des milliers d'animaux.",
+      "Le carnaval de Rio est une fête colorée."
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Christ_the_Redeemer_-_Cristo_Redentor.jpg/320px-Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+    ]
+  },
+  "mexico": {
+    "kidFactTitle": "Pyramides et tacos",
+    "memoryHook": "Pyramides, tacos, fête",
+    "kidFacts": [
+      "Les Mayas ont construit d'immenses pyramides.",
+      "Les tacos viennent du Mexique.",
+      "Co-organisateur de la Coupe du monde 2026 !"
+    ],
+    "images": []
+  },
+  "canada": {
+    "kidFactTitle": "Ours et grands lacs",
+    "memoryHook": "Ours, érable, grands lacs",
+    "kidFacts": [
+      "Le Canada est immense et couvert de forêts.",
+      "Le sirop d'érable est délicieux.",
+      "Co-organisateur de la Coupe du monde 2026 !"
+    ],
+    "images": []
+  },
+  "usa": {
+    "kidFactTitle": "Grand Canyon et NASA",
+    "memoryHook": "Statue Liberté, NASA, parcs",
+    "kidFacts": [
+      "Le Grand Canyon est une gorge immense.",
+      "La Statue de la Liberté est à New York.",
+      "Co-organisateur de la Coupe du monde 2026 !"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/320px-Statue_of_Liberty_7.jpg"
+    ]
+  },
+  "japan": {
+    "kidFactTitle": "Fuji et trains rapides",
+    "memoryHook": "Fuji, mangas, Shinkansen",
+    "kidFacts": [
+      "Tokyo est une des plus grandes villes du monde.",
+      "Le mont Fuji est un volcan emblématique.",
+      "Les trains Shinkansen sont très rapides."
+    ],
+    "images": []
+  },
+  "germany": {
+    "kidFactTitle": "Châteaux et forêts",
+    "memoryHook": "Châteaux, forêts, voitures",
+    "kidFacts": [
+      "Berlin est une capitale pleine d'histoire.",
+      "Les châteaux de contes de fées sont célèbres.",
+      "Les forêts allemandes sont magnifiques."
+    ],
+    "images": []
+  },
+  "spain": {
+    "kidFactTitle": "Flamenco et plages",
+    "memoryHook": "Flamenco, paella, plages",
+    "kidFacts": [
+      "Le flamenco mêle danse et guitare.",
+      "La paella est un plat coloré au riz.",
+      "De longues plages ensoleillées bordent le pays."
+    ],
+    "images": []
+  },
+  "argentina": {
+    "kidFactTitle": "Tango et pampa",
+    "memoryHook": "Tango, football, pampa",
+    "kidFacts": [
+      "Buenos Aires est une ville animée.",
+      "Le tango est né en Argentine.",
+      "La Patagonie a des glaciers géants."
+    ],
+    "images": []
+  },
+  "morocco": {
+    "kidFactTitle": "Désert et souks",
+    "memoryHook": "Désert, souks, Atlas",
+    "kidFacts": [
+      "Le désert du Sahara couvre le sud du pays.",
+      "Les souks sont des marchés colorés.",
+      "Le couscous est un plat traditionnel."
+    ],
+    "images": []
+  },
+  "england": {
+    "kidFactTitle": "Big Ben et football",
+    "memoryHook": "Big Ben, football, thé",
+    "kidFacts": [
+      "Londres a Big Ben et Tower Bridge.",
+      "Le football est très populaire ici.",
+      "Harry Potter a été écrit en Angleterre."
+    ],
+    "images": []
+  },
+  "senegal": {
+    "kidFactTitle": "Teranga et musique",
+    "memoryHook": "Teranga, lions, mbalax",
+    "kidFacts": [
+      "Dakar est la ville la plus à l'ouest de l'Afrique.",
+      "Le Teranga signifie l'hospitalité.",
+      "La musique mbalax fait danser tout le monde."
+    ],
+    "images": []
+  },
+  "south_korea": {
+    "kidFactTitle": "K-pop et technologie",
+    "memoryHook": "K-pop, kimchi, tech",
+    "kidFacts": [
+      "Séoul est une ville ultra-moderne.",
+      "La K-pop est une musique dansée populaire.",
+      "Le kimchi est un plat épicé au chou."
+    ],
+    "images": []
+  },
+  "portugal": {
+    "kidFactTitle": "Océan et pastéis",
+    "memoryHook": "Tramways, océan, football",
+    "kidFacts": [
+      "Lisbonne a des tramways jaunes célèbres.",
+      "Les navigateurs portugais ont exploré les océans.",
+      "Les pastéis de nata sont de petites tartes crémeuses."
+    ],
+    "images": []
+  },
+  "netherlands": {
+    "kidFactTitle": "Moulins et vélos",
+    "memoryHook": "Moulins, tulipes, vélos",
+    "kidFacts": [
+      "Amsterdam a beaucoup de canaux.",
+      "Les moulins à vent sont un symbole du pays.",
+      "Les Pays-Bas sont le pays du vélo !"
+    ],
+    "images": []
+  },
+  "colombia": {
+    "kidFactTitle": "Café et Andes",
+    "memoryHook": "Café, Andes, musique",
+    "kidFacts": [
+      "La Colombie produit beaucoup de café.",
+      "Les montagnes des Andes traversent le pays.",
+      "La nature y est très riche."
+    ],
+    "images": []
+  },
+  "south_africa": {
+    "kidFactTitle": "Savane et safari",
+    "memoryHook": "Safari, lions, océans",
+    "kidFacts": [
+      "On peut y voir des lions, éléphants et girafes en safari.",
+      "Le pays a trois capitales différentes.",
+      "Deux océans se rencontrent près du cap de Bonne-Espérance."
+    ],
+    "images": []
+  },
+  "qatar": {
+    "kidFactTitle": "Désert et gratte-ciels",
+    "memoryHook": "Désert, dattes, modernité",
+    "kidFacts": [
+      "Doha possède des gratte-ciels qui brillent la nuit.",
+      "Le pays est entouré par le désert et la mer.",
+      "Il a accueilli la Coupe du monde en 2022."
+    ],
+    "images": []
+  },
+  "switzerland": {
+    "kidFactTitle": "Alpes et chocolat",
+    "memoryHook": "Alpes, chocolat, montres",
+    "kidFacts": [
+      "Les Alpes enneigées couvrent une grande partie du pays.",
+      "Le chocolat suisse est connu dans le monde entier.",
+      "On y parle quatre langues officielles."
+    ],
+    "images": []
+  },
+  "haiti": {
+    "kidFactTitle": "Île et musique",
+    "memoryHook": "Caraïbes, créole, kompa",
+    "kidFacts": [
+      "Haïti se trouve sur une île des Caraïbes.",
+      "On y parle le créole et le français.",
+      "Le kompa est une musique qui fait danser."
+    ],
+    "images": []
+  },
+  "scotland": {
+    "kidFactTitle": "Châteaux et cornemuse",
+    "memoryHook": "Châteaux, kilts, cornemuse",
+    "kidFacts": [
+      "L'Écosse est célèbre pour ses châteaux anciens.",
+      "La cornemuse est un instrument traditionnel.",
+      "La légende parle d'un monstre dans le lac Loch Ness."
+    ],
+    "images": []
+  },
+  "paraguay": {
+    "kidFactTitle": "Fleuves et guarani",
+    "memoryHook": "Fleuves, guarani, harpe",
+    "kidFacts": [
+      "On y parle l'espagnol et le guarani.",
+      "De grands fleuves traversent le pays.",
+      "La harpe paraguayenne a un son très doux."
+    ],
+    "images": []
+  },
+  "australia": {
+    "kidFactTitle": "Kangourous et récifs",
+    "memoryHook": "Kangourous, koalas, récif",
+    "kidFacts": [
+      "Les kangourous et les koalas y vivent en liberté.",
+      "La Grande Barrière de corail est immense.",
+      "L'Australie est à la fois un pays et un continent."
+    ],
+    "images": []
+  },
+  "curacao": {
+    "kidFactTitle": "Île colorée",
+    "memoryHook": "Caraïbes, maisons colorées",
+    "kidFacts": [
+      "Curaçao est une petite île des Caraïbes.",
+      "Ses maisons sont peintes de couleurs vives.",
+      "L'eau y est turquoise et chaude."
+    ],
+    "images": []
+  },
+  "ivory_coast": {
+    "kidFactTitle": "Cacao et éléphants",
+    "memoryHook": "Cacao, éléphants, football",
+    "kidFacts": [
+      "La Côte d'Ivoire est un grand producteur de cacao.",
+      "L'éléphant est le symbole du pays.",
+      "Abidjan est une ville pleine de vie."
+    ],
+    "images": []
+  },
+  "ecuador": {
+    "kidFactTitle": "Équateur et Galápagos",
+    "memoryHook": "Équateur, volcans, Galápagos",
+    "kidFacts": [
+      "Le pays est traversé par la ligne de l'équateur.",
+      "Les îles Galápagos abritent des tortues géantes.",
+      "De grands volcans dominent le paysage."
+    ],
+    "images": []
+  },
+  "tunisia": {
+    "kidFactTitle": "Méditerranée et désert",
+    "memoryHook": "Plages, désert, médinas",
+    "kidFacts": [
+      "La Tunisie borde la mer Méditerranée.",
+      "Le désert du Sahara s'étend au sud.",
+      "Des décors de Star Wars y ont été filmés."
+    ],
+    "images": []
+  },
+  "belgium": {
+    "kidFactTitle": "Frites et BD",
+    "memoryHook": "Frites, chocolat, Tintin",
+    "kidFacts": [
+      "Les frites et le chocolat belges sont délicieux.",
+      "Tintin et les Schtroumpfs viennent de Belgique.",
+      "Bruxelles accueille de grandes institutions européennes."
+    ],
+    "images": []
+  },
+  "egypt": {
+    "kidFactTitle": "Pyramides et Nil",
+    "memoryHook": "Pyramides, Nil, pharaons",
+    "kidFacts": [
+      "Les pyramides de Gizeh ont des milliers d'années.",
+      "Le Nil est l'un des plus longs fleuves du monde.",
+      "Les pharaons écrivaient avec des hiéroglyphes."
+    ],
+    "images": []
+  },
+  "iran": {
+    "kidFactTitle": "Tapis et poésie",
+    "memoryHook": "Tapis, montagnes, poésie",
+    "kidFacts": [
+      "Les tapis persans sont tissés à la main.",
+      "Le pays a de hautes montagnes et des déserts.",
+      "La poésie y est très appréciée depuis longtemps."
+    ],
+    "images": []
+  },
+  "new_zealand": {
+    "kidFactTitle": "Kiwis et volcans",
+    "memoryHook": "Kiwi, moutons, volcans",
+    "kidFacts": [
+      "Le kiwi est un oiseau qui ne vole pas.",
+      "Il y a plus de moutons que d'habitants !",
+      "Le Seigneur des Anneaux y a été filmé."
+    ],
+    "images": []
+  },
+  "cape_verde": {
+    "kidFactTitle": "Îles et morna",
+    "memoryHook": "Îles, océan, musique",
+    "kidFacts": [
+      "Le Cap-Vert est un archipel dans l'océan Atlantique.",
+      "La morna est une musique douce et émouvante.",
+      "Les plages de sable y sont magnifiques."
+    ],
+    "images": []
+  },
+  "saudi_arabia": {
+    "kidFactTitle": "Désert et dattes",
+    "memoryHook": "Désert, dattes, dunes",
+    "kidFacts": [
+      "Une grande partie du pays est un désert de sable.",
+      "Les dattes y poussent dans les oasis.",
+      "Riyad est une grande ville moderne."
+    ],
+    "images": []
+  },
+  "uruguay": {
+    "kidFactTitle": "Plages et football",
+    "memoryHook": "Plages, football, asado",
+    "kidFacts": [
+      "L'Uruguay a gagné la toute première Coupe du monde en 1930.",
+      "Les plages de Montevideo sont très appréciées.",
+      "L'asado est un barbecue traditionnel."
+    ],
+    "images": []
+  },
+  "norway": {
+    "kidFactTitle": "Fjords et aurores",
+    "memoryHook": "Fjords, ski, aurores",
+    "kidFacts": [
+      "Les fjords sont de profonds bras de mer entre les montagnes.",
+      "On peut y voir des aurores boréales.",
+      "Le ski est un sport national."
+    ],
+    "images": []
+  },
+  "algeria": {
+    "kidFactTitle": "Sahara et oasis",
+    "memoryHook": "Sahara, oasis, Méditerranée",
+    "kidFacts": [
+      "L'Algérie est le plus grand pays d'Afrique.",
+      "Le Sahara couvre une immense partie du territoire.",
+      "Le pays borde la mer Méditerranée au nord."
+    ],
+    "images": []
+  },
+  "austria": {
+    "kidFactTitle": "Alpes et musique",
+    "memoryHook": "Alpes, valse, Mozart",
+    "kidFacts": [
+      "Mozart, grand compositeur, est né à Salzbourg.",
+      "Les Alpes autrichiennes sont parfaites pour le ski.",
+      "Vienne est célèbre pour ses valses."
+    ],
+    "images": []
+  },
+  "jordan": {
+    "kidFactTitle": "Petra et désert",
+    "memoryHook": "Petra, désert, mer Morte",
+    "kidFacts": [
+      "Petra est une cité taillée dans la roche rose.",
+      "On flotte facilement dans la mer Morte très salée.",
+      "Le désert du Wadi Rum ressemble à une autre planète."
+    ],
+    "images": []
+  },
+  "uzbekistan": {
+    "kidFactTitle": "Route de la soie",
+    "memoryHook": "Soie, mosaïques, Samarcande",
+    "kidFacts": [
+      "Samarcande était une étape de la route de la soie.",
+      "Ses monuments sont couverts de mosaïques bleues.",
+      "Le pays se trouve au cœur de l'Asie centrale."
+    ],
+    "images": []
+  },
+  "croatia": {
+    "kidFactTitle": "Mer et îles",
+    "memoryHook": "Adriatique, îles, château",
+    "kidFacts": [
+      "La Croatie borde la mer Adriatique aux eaux claires.",
+      "Elle compte plus de mille îles.",
+      "Dubrovnik est entourée de remparts anciens."
+    ],
+    "images": []
+  },
+  "ghana": {
+    "kidFactTitle": "Or et tambours",
+    "memoryHook": "Or, cacao, tambours",
+    "kidFacts": [
+      "Le Ghana est riche en or et en cacao.",
+      "Les tambours rythment les fêtes traditionnelles.",
+      "Les tissus kente sont très colorés."
+    ],
+    "images": []
+  },
+  "panama": {
+    "kidFactTitle": "Canal et deux océans",
+    "memoryHook": "Canal, bateaux, jungle",
+    "kidFacts": [
+      "Le canal de Panama relie deux océans.",
+      "De grands bateaux le traversent chaque jour.",
+      "Le pays abrite une jungle pleine d'animaux."
+    ],
+    "images": []
+  }
+}

@@ -1,5 +1,6 @@
 package com.example.worldkids
 
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,6 +25,11 @@ class MainActivity : ComponentActivity() {
 
             androidx.compose.runtime.LaunchedEffect(tvMode) {
                 setImmersiveMode(this@MainActivity, tvMode)
+                requestedOrientation = if (tvMode) {
+                    ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+                } else {
+                    ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+                }
             }
 
             WorldKidsTheme(tvMode = tvMode) {

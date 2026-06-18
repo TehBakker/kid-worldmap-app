@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.worldkids.theme.SkyBlue
+import com.example.worldkids.theme.OceanLight
 
 @Composable
 fun TvModeBanner(modifier: Modifier = Modifier) {
@@ -20,7 +20,7 @@ fun TvModeBanner(modifier: Modifier = Modifier) {
         color = MaterialTheme.colorScheme.onSurface,
         modifier = modifier
             .fillMaxWidth()
-            .background(SkyBlue.copy(alpha = 0.35f), RoundedCornerShape(12.dp))
+            .background(OceanLight.copy(alpha = 0.25f), RoundedCornerShape(12.dp))
             .padding(12.dp)
     )
 }

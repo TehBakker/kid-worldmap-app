@@ -1,0 +1,130 @@
+{
+  "competition": "Coupe du monde 2026",
+  "hostCountries": [
+    "canada",
+    "mexico",
+    "usa"
+  ],
+  "groups": [
+    {
+      "id": "A",
+      "label": "Poule A",
+      "teamIds": [
+        "mexico",
+        "south_africa",
+        "south_korea",
+        "playoff_uefa_d"
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Poule B",
+      "teamIds": [
+        "canada",
+        "playoff_uefa_a",
+        "qatar",
+        "switzerland"
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Poule C",
+      "teamIds": [
+        "brazil",
+        "morocco",
+        "haiti",
+        "scotland"
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Poule D",
+      "teamIds": [
+        "usa",
+        "paraguay",
+        "australia",
+        "playoff_uefa_c"
+      ]
+    },
+    {
+      "id": "E",
+      "label": "Poule E",
+      "teamIds": [
+        "germany",
+        "curacao",
+        "ivory_coast",
+        "ecuador"
+      ]
+    },
+    {
+      "id": "F",
+      "label": "Poule F",
+      "teamIds": [
+        "netherlands",
+        "japan",
+        "playoff_uefa_b",
+        "tunisia"
+      ]
+    },
+    {
+      "id": "G",
+      "label": "Poule G",
+      "teamIds": [
+        "belgium",
+        "egypt",
+        "iran",
+        "new_zealand"
+      ]
+    },
+    {
+      "id": "H",
+      "label": "Poule H",
+      "teamIds": [
+        "spain",
+        "cape_verde",
+        "saudi_arabia",
+        "uruguay"
+      ]
+    },
+    {
+      "id": "I",
+      "label": "Poule I",
+      "teamIds": [
+        "france",
+        "senegal",
+        "playoff_fifa_2",
+        "norway"
+      ]
+    },
+    {
+      "id": "J",
+      "label": "Poule J",
+      "teamIds": [
+        "argentina",
+        "algeria",
+        "austria",
+        "jordan"
+      ]
+    },
+    {
+      "id": "K",
+      "label": "Poule K",
+      "teamIds": [
+        "portugal",
+        "playoff_fifa_1",
+        "uzbekistan",
+        "colombia"
+      ]
+    },
+    {
+      "id": "L",
+      "label": "Poule L",
+      "teamIds": [
+        "england",
+        "croatia",
+        "ghana",
+        "panama"
+      ]
+    }
+  ]
+}

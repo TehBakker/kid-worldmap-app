@@ -10,11 +10,28 @@ data class Country(
     val continent: String,
     val mainLanguage: String,
     val currency: String,
-    val kidFactTitle: String,
-    val kidFacts: List<String>,
-    val memoryHook: String,
-    val images: List<String>,
     val mapX: Float,
     val mapY: Float,
-    val colorHex: String
+    val colorHex: String,
+    val kidFactTitle: String = "",
+    val kidFacts: List<String> = emptyList(),
+    val memoryHook: String = "",
+    val images: List<String> = emptyList(),
+    val worldCup2026Group: String? = null,
+    val isWorldCup2026: Boolean = false
+) {
+    val hasRichContent: Boolean
+        get() = kidFacts.isNotEmpty()
+}
+
+data class WorldCupGroup(
+    val id: String,
+    val label: String,
+    val teamIds: List<String>
+)
+
+data class WorldCupGroupsData(
+    val competition: String,
+    val hostCountries: List<String>,
+    val groups: List<WorldCupGroup>
 )

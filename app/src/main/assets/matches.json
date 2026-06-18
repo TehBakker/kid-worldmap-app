@@ -1,0 +1,134 @@
+[
+  {
+    "id": "wc26-opener",
+    "label": "Mexique vs Afrique du Sud",
+    "countryAId": "mexico",
+    "countryBId": "south_africa",
+    "competition": "CDM 2026",
+    "dateLabel": "11 juin 2026",
+    "groupOrStage": "Poule A",
+    "phase": "group",
+    "featured": true
+  },
+  {
+    "id": "wc26-b1",
+    "label": "Canada vs Suisse",
+    "countryAId": "canada",
+    "countryBId": "switzerland",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule B",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-c1",
+    "label": "Brésil vs Maroc",
+    "countryAId": "brazil",
+    "countryBId": "morocco",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule C",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-d1",
+    "label": "États-Unis vs Australie",
+    "countryAId": "usa",
+    "countryBId": "australia",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule D",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-e1",
+    "label": "Allemagne vs Équateur",
+    "countryAId": "germany",
+    "countryBId": "ecuador",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule E",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-f1",
+    "label": "Pays-Bas vs Japon",
+    "countryAId": "netherlands",
+    "countryBId": "japan",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule F",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-g1",
+    "label": "Belgique vs Égypte",
+    "countryAId": "belgium",
+    "countryBId": "egypt",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule G",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-h1",
+    "label": "Espagne vs Uruguay",
+    "countryAId": "spain",
+    "countryBId": "uruguay",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule H",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-i1",
+    "label": "France vs Sénégal",
+    "countryAId": "france",
+    "countryBId": "senegal",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule I",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-j1",
+    "label": "Argentine vs Algérie",
+    "countryAId": "argentina",
+    "countryBId": "algeria",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule J",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-k1",
+    "label": "Portugal vs Colombie",
+    "countryAId": "portugal",
+    "countryBId": "colombia",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule K",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-l1",
+    "label": "Angleterre vs Croatie",
+    "countryAId": "england",
+    "countryBId": "croatia",
+    "competition": "CDM 2026",
+    "dateLabel": "Juin 2026",
+    "groupOrStage": "Poule L",
+    "phase": "group"
+  },
+  {
+    "id": "wc26-final",
+    "label": "Finale CDM 2026",
+    "countryAId": "france",
+    "countryBId": "brazil",
+    "competition": "CDM 2026",
+    "dateLabel": "Juillet 2026 (à confirmer)",
+    "groupOrStage": "Finale",
+    "phase": "knockout",
+    "featured": true
+  }
+]

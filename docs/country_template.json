@@ -1,0 +1,16 @@
+{
+  "id": "nouveau_pays",
+  "nameFr": "Nom en français",
+  "nameEn": "English name",
+  "flagEmoji": "🏳️",
+  "capital": "Capitale",
+  "population": "10 millions",
+  "continent": "Europe",
+  "mainLanguage": "Langue",
+  "currency": "Monnaie",
+  "mapX": 0.5,
+  "mapY": 0.5,
+  "colorHex": "#607D8B",
+  "worldCup2026Group": null,
+  "isWorldCup2026": false
+}

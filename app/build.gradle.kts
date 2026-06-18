@@ -12,8 +12,8 @@ android {
         applicationId = "com.example.worldkids"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         vectorDrawables {
             useSupportLibrary = true
@@ -42,11 +42,16 @@ android {
     buildFeatures {
         compose = true
     }
+
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+    }
 }
 
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
@@ -55,5 +60,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.coil.compose)
+    testImplementation(libs.junit)
+    // Implémentation réelle d'org.json pour les tests JVM (sinon stub Android "not mocked")
+    testImplementation("org.json:json:20240303")
     debugImplementation(libs.androidx.ui.tooling)
 }
